@@ -1,0 +1,5 @@
+# large generated media (exceeds GitHub's 100 MB limit / regenerable)
+WAR_FILES_ANTWERP_HEIST/project/build/
+*.mp4
+*.wav
+__pycache__/

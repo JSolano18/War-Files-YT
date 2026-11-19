@@ -1,0 +1,116 @@
+WAR FILES — YOUTUBE METADATA
+Video: THE ANTWERP DIAMOND HEIST (Belgium, 2003)
+
+════════ TITLE OPTIONS (characters) ════════
+ 1. The $100 Million Heist That Should Have Been Impossible        (55)
+ 2. How Thieves Emptied the World's Most Secure Diamond Vault        (58)
+ 3. They Beat 10 Layers of Security. Then Left Their Trash Behind.   (62)
+ 4. The Antwerp Diamond Heist: $100 Million, Still Missing           (53)
+ 5. The Inside Man Who Robbed Antwerp's Diamond Vault                (49)
+ 6. A Salami Sandwich Exposed the Biggest Diamond Heist Ever         (56)
+ 7. The Heist of the Century: What Really Happened in Antwerp        (57)
+ 8. $100 Million in Diamonds Vanished. Most Were Never Found.        (57)
+ 9. The Vault Was Unbreakable. Until One Weekend in 2003.            (52)
+10. Inside the Largest Diamond Heist in History                      (43)
+
+SELECTED TITLE:
+They Beat 10 Layers of Security. Then Left Their Trash Behind.
+
+Why: the primary thumbnail already says the amount ($100,000,000) and asks "HOW DID THEY DO IT?".
+The title adds what the thumbnail doesn't: an unbelievable contradiction (a near-perfect break-in
+undone by garbage). That opens a second question ("what trash?") without repeating the thumbnail text.
+Accuracy note: "10 layers" is the figure widely reported in coverage of the heist. The narration
+presents it as "reportedly".
+
+════════ THUMBNAIL ════════
+Primary: THUMBNAIL_PRIMARY.png (concept A, "The impossible vault")
+Alternatives: THUMBNAIL_ALTERNATIVE_A.png (concept B, "The inside man"),
+THUMBNAIL_ALTERNATIVE_B.png (concept C, "Still missing")
+1280x720 upload versions are in thumbnails_1280x720/. 3840x2160 masters are in the root folder.
+
+Comparison (1–5):
+                       Mobile read  Clarity  Curiosity  Emotion  Relevance  Total
+A Impossible vault          5          5         5         4         5        24
+B Inside man                4          4         4         5         4        21
+C Still missing             5          4         4         3         5        21
+A wins because a single glance gives the vault, the open door, the diamonds, the figure and the
+number. On mobile, "$100,000,000" stays legible at small sizes. B relies on a silhouette and a case
+file that get small on phones. C reads well but shows only boxes, with no sense of a crime in progress.
+All three are labelled internally as illustrations. None imitates a crime-scene photograph.
+
+════════ DESCRIPTION A — FULL ════════
+In February 2003, a vault two floors beneath Antwerp's diamond district was found open. Inside:
+forced safe-deposit boxes, scattered papers, and an estimated $100 million in diamonds, gold and
+jewelry gone. No explosion. No alarm. No witnesses.
+
+This WAR FILES investigation reconstructs the Antwerp Diamond Centre heist, the record-setting
+robbery behind what is often called "the heist of the century." We follow Leonardo Notarbartolo, the
+Italian tenant a Belgian court later convicted of organizing it, and the so-called School of Turin.
+We look at the vault's reported ten layers of security, the weekend of the break-in, and the
+roadside discovery near the E19 highway that exposed the crew.
+
+We also separate the court's findings from Notarbartolo's own disputed account: that the crew was
+hired by a merchant, that the theft was an insurance fraud, and that the haul was only about
+$20 million. Most of the diamonds have never been recovered.
+
+Subscribe to WAR FILES for more investigations built on the record. We don't tell stories, we open the files.
+
+CHAPTERS
+00:00 The discovery
+01:01 Antwerp: the diamond capital
+02:41 Leonardo Notarbartolo and the crew
+04:38 The preparation and infiltration
+06:50 Inside the high-security vault
+08:08 The weekend of the robbery
+09:46 The discovery on Monday morning
+10:55 The evidence that exposed the thieves
+12:04 Arrests, investigation, and competing accounts
+13:35 The missing diamonds and final mystery
+
+SOURCES
+• WIRED, Joshua Davis, "The Untold Story of the World's Biggest Diamond Heist" (March 2009): https://www.wired.com/2009/03/ff-diamonds-2/
+• Guinness World Records, "Largest diamond heist": https://www.guinnessworldrecords.com/world-records/112164-largest-diamond-heist
+• National Geographic, "A Recent History of Diamond Heists" (2013): https://www.nationalgeographic.com/culture/article/130509-diamond-heist-crime-jewel-thief
+• Expatica, "Four jailed for diamond-studded 'Italian Job'" (20 May 2005): https://www.expatica.com/be/general/four-jailed-for-diamondstudded-italian-job-82517
+• Flanders Today, "Flawless": https://www.flanderstoday.eu/content/flawless
+• S. A. Selby & G. Campbell, Flawless: Inside the Largest Diamond Heist in History (2010)
+
+CREDITS
+Narration: synthetic voice (Kokoro open-source TTS model, Apache-2.0).
+Original music and sound design: WAR FILES (procedurally composed, no third-party audio).
+All visuals are original illustrations and diagrams. Scenes marked ILLUSTRATION or DRAMATIZATION
+are reconstructions, not archival footage. No archival photographs are used.
+Map data: Natural Earth (public domain) via world-atlas.
+Fonts: Bebas Neue, Oswald, Inter, EB Garamond (SIL OFL 1.1); Special Elite (Apache 2.0).
+
+#TrueCrime #DiamondHeist #WARFILES
+
+════════ DESCRIPTION B — SHORT ════════
+Two floors beneath Antwerp, a vault reportedly protected by ten layers of security was found open,
+and an estimated $100 million in diamonds was gone. How did the crew get in, how did a pile of
+roadside trash expose them, and where did the diamonds go? A WAR FILES investigation.
+
+════════ TAGS (comma-separated, under 500 characters) ════════
+Antwerp diamond heist, Antwerp 2003, Leonardo Notarbartolo, diamond robbery, 100 million dollar heist, heist of the century, Antwerp Diamond Centre, School of Turin, largest diamond heist, biggest heist in history, true crime documentary, historical documentary, diamond heist documentary, Belgium crime, King of Keys, unsolved mystery, WAR FILES
+
+(346 characters)
+
+════════ HASHTAGS ════════
+#TrueCrime  #DiamondHeist  #WARFILES
+
+════════ CATEGORY ════════
+Education (alternative: Film & Animation)
+
+════════ UPLOAD FILENAME ════════
+antwerp-diamond-heist-2003-100-million-war-files-documentary.mp4
+
+════════ PINNED COMMENT ════════
+A Belgian court convicted Leonardo Notarbartolo of organizing the 2003 Antwerp heist. Years later he
+claimed it was an insurance fraud worth only about $20 million, and that claim has never been
+confirmed. Most of the diamonds were never recovered, and the "King of Keys" was never identified.
+
+So which version do you believe: a $100 million masterpiece, or a smaller job dressed up as one?
+Tell us below. 👇
+
+════════ SUBTITLES ════════
+Upload SUBTITLES.srt as English (United States) captions.

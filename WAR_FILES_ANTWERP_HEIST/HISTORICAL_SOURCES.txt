@@ -1,0 +1,65 @@
+WAR FILES — THE ANTWERP DIAMOND HEIST — HISTORICAL SOURCES & FACT-CHECK LOG
+
+RESEARCH LIMITS (stated plainly)
+Production ran in a sandboxed cloud environment. Direct page fetches were blocked for wired.com,
+wikipedia.org, guinnessworldrecords.com, nationalgeographic.com, expatica.com and jckonline.com.
+Facts were therefore checked through web-search result summaries that cross-referenced these
+sources. No court records were consulted directly. Before publishing, a human should re-read the
+WIRED feature and the Wikipedia article and check them against the claims table below.
+
+PRIMARY / STARTING REFERENCES
+1. Joshua Davis, "The Untold Story of the World's Biggest Diamond Heist," WIRED, 12 March 2009.
+   https://www.wired.com/2009/03/ff-diamonds-2/   (Notarbartolo's own account)
+2. Guinness World Records, "Largest diamond heist" ($100,000,000).
+   https://www.guinnessworldrecords.com/world-records/112164-largest-diamond-heist
+3. National Geographic, "A Recent History of Diamond Heists" (May 2013).
+   https://www.nationalgeographic.com/culture/article/130509-diamond-heist-crime-jewel-thief
+SUPPORTING
+4. Expatica, "Four jailed for diamond-studded 'Italian Job'," 20 May 2005 (sentencing report).
+   https://www.expatica.com/be/general/four-jailed-for-diamondstudded-italian-job-82517
+5. JCK, report on sentencing and unrecovered loot. https://www.jckonline.com/?p=36228
+6. Flanders Today, "Flawless" (on August Van Camp and the Vilvoorde woods). https://www.flanderstoday.eu/content/flawless
+7. Wikipedia, "Antwerp diamond heist." https://en.wikipedia.org/wiki/Antwerp_diamond_heist
+8. Wikipedia, "Antwerp diamond district." https://en.wikipedia.org/wiki/Antwerp_diamond_district
+9. Scott Andrew Selby & Greg Campbell, Flawless: Inside the Largest Diamond Heist in History (2010).
+10. Netflix, Stolen: Heist of the Century (documentary, August 2025), adapted from Flawless.
+    https://media.netflix.com/en/only-on-netflix/81733898
+11. VRT NWS, "70 nationalities in only 3 streets" (March 2026), for the district's diversity.
+
+CLAIMS TABLE: how each statement is presented in the narration
+CONFIRMED (multiple sources agree)
+- Location: Antwerp Diamond Centre, Schupstraat 9–11, Antwerp, Belgium (not Germany; not a retail bank).
+- Weekend of 15–16 February 2003; discovered on the morning of Monday 17 February 2003.
+- The vault was below street level (widely reported as two floors down).
+- Notarbartolo rented an office in the building about two years beforehand.
+- Rubbish from the crew was dumped in woodland beside the E19 near Vilvoorde and found by the
+  land's caretaker, August Van Camp, who called police after seeing Diamond Centre envelopes.
+- A half-eaten salami sandwich in the rubbish yielded DNA.
+- Notarbartolo was arrested on 21 February 2003 when he returned to the Diamond Centre.
+- 2005: Notarbartolo was sentenced to 10 years; D'Onorio, Finotto and Tavano to 5 years each.
+- Notarbartolo was paroled in 2009.
+- Guinness lists it as the largest diamond heist ($100 million). Most of the loot was never recovered.
+- The "King of Keys" was never identified.
+WIDELY REPORTED (stated with "reportedly" / "accounts describe" / "by widely cited estimates")
+- "Ten layers of security": combination dial with 100 million codes, key ~1 ft long, infrared heat
+  detectors, seismic sensor, Doppler radar, light sensor, magnetic field, box locks, guards/cameras.
+- Antwerp handling roughly 80% of the world's rough diamonds in that era.
+- Nicknames and roles of the crew (the Genius, the Monster, Speedy, the King of Keys).
+DISPUTED (presented as a range or as disputed)
+- Boxes opened: 109 vs 123; total boxes reported between 160 and 189.
+- Whose DNA was on the sandwich: sources differ (Notarbartolo vs Finotto). The narration says
+  "accounts differ".
+- The value: ~$100M (widely reported) vs Notarbartolo's ~€18M/$20M.
+NOTARBARTOLO'S ACCOUNT (always attributed to him; not confirmed by Belgian authorities)
+- Months of reconnaissance; photos with a camera hidden in a pen; a hidden camera above the vault
+  door to record the combination; a replica for rehearsal; entry from a neighboring property at the
+  back; hairspray on the heat sensor; tape on the light sensor; an aluminum plate holding the
+  magnetic sensor closed; the real key kept near the vault; "Speedy" panicking and scattering the
+  trash; hired by a diamond merchant; insurance fraud.
+DELIBERATELY OMITTED (could not be verified)
+- Any 2013 re-arrest or later detentions; specific tools used on the boxes; a videotape among the
+  rubbish (single low-reliability source); the court venue and exact verdict date.
+
+NO INVENTED MATERIAL
+No dialogue, eyewitness quotes, photographs, headlines or investigative findings were invented.
+Every reconstructed scene is labelled on screen.

@@ -1,0 +1,44 @@
+WAR FILES — THE ANTWERP DIAMOND HEIST — IMAGE, AUDIO & ASSET CREDITS
+
+ARCHIVAL / THIRD-PARTY PHOTOGRAPHS
+None used. Wikimedia Commons and news-photo hosts could not be reached from the production
+environment, so no image's authenticity or license could be verified. Under the brief's rules
+("If licensing is uncertain, find an alternative"), every visual is an original illustration
+instead. No photograph of Leonardo Notarbartolo or the crew appears. Dossier cards show a
+labelled "NO PHOTO" silhouette.
+Suggested real images to license before a re-cut (verify each license first):
+ - Antwerp diamond district street photo credited "Kristina D.C. Hoeppner, CC BY-SA 2.0, via
+   Wikimedia Commons". On-screen credit format: "Photo: Kristina D.C. Hoeppner / Wikimedia Commons /
+   CC BY-SA 2.0". The exact file still has to be confirmed on Commons.
+ - Contemporary news-agency photos (Belga, Reuters, AP) of the Diamond Centre and the arrest. These
+   need paid licensing.
+
+CHANNEL LOGO
+WAR FILES logo supplied by the channel owner (IMG_9379.jpeg). Circular crop with a transparent
+background; the design itself is unaltered. Used as a 60% opacity watermark, top-right.
+
+VISUALS (all original)
+Vault door, safe-deposit boxes, diamonds, key, skyline, forest, highway, corridor, maps, diagrams,
+dossiers, evidence board and thumbnails were procedurally rendered in Python (Pillow/NumPy) for
+this production. Map geography: Natural Earth (public domain) via the "world-atlas" package (ISC).
+
+NARRATION
+Synthetic voice made with Kokoro-82M (open-source TTS, Apache License 2.0), a blend of the
+"am_michael" and "am_onyx" voice styles. It is AI-generated. Disclose this per YouTube's
+altered/synthetic content policy if your channel requires it.
+
+MUSIC & SOUND DESIGN
+Original. Procedurally composed and synthesized for this film (drones, pads, pulse, ostinato,
+piano motif, whooshes, impacts, metal, footsteps, wind, hum). No samples, stock libraries or
+third-party recordings. Rights: WAR FILES.
+
+FONTS
+Bebas Neue: SIL Open Font License 1.1 (Dharma Type)
+Oswald: SIL OFL 1.1 (Vernon Adams et al.)
+Inter: SIL OFL 1.1 (Rasmus Andersson)
+EB Garamond: SIL OFL 1.1 (Georg Duffner, Octavio Pardo)
+Special Elite: Apache License 2.0 (Astigmatic)
+(Font files obtained via the @fontsource npm packages.)
+
+SOFTWARE
+FFmpeg (libx264, libass), Python, Pillow, NumPy, SciPy, kokoro-onnx, ONNX Runtime.
