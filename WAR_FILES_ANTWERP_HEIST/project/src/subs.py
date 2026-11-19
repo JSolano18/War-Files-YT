@@ -69,5 +69,5 @@ with open(os.path.join(BUILD, "subtitles.ass"), "w") as f:
     f.write(hdr)
     for a, b, p in events:
         txt = "\\N".join(hl(l) for l in two_lines(p))
-        f.write(f"Dialogue: 0,{ts_ass(a)},{ts_ass(b)},Doc,,0,0,0,{{\\fad(120,120)}}{txt}\n")
+        f.write(f"Dialogue: 0,{ts_ass(a)},{ts_ass(b)},Doc,,0,0,0,,{{\\fad(120,120)}}{txt}\n")
 print(len(events), "subtitle events")
