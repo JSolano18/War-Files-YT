@@ -121,6 +121,7 @@ def concept_C():
     cv = grade(cv, "right", 0.03)
     paste(cv, glow(big_text("$100,000,000", 580, GOLD, 8), 40, 0.55), TW * 0.5, TH * 0.38, "cm")
     paste(cv, big_text("STILL MISSING", 230, WHITE, 18), TW * 0.5, TH * 0.62, "cm")
+    paste(cv, big_text("THE DIAMOND HEIST", 250, WHITE, 26), TW * 0.5, TH * 0.15, "cm")
     return cv
 if __name__ == "__main__":
     for nm, fn in (("A", concept_A), ("B", concept_B), ("C", concept_C)):
