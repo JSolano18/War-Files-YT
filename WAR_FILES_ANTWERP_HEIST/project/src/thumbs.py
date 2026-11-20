@@ -103,8 +103,9 @@ def concept_B():
     card = card.resize((int(card.size[0] * 1.2), int(card.size[1] * 1.2)))
     paste(cv, card, TW * 0.78, TH * 0.75, "cm", 0.92)
     cv = grade(cv, "left", 0.03)
-    paste(cv, glow(big_text("$100 MILLION", 470, GOLD, 8), 40, 0.5), TW * 0.71, TH * 0.18, "cm")
-    paste(cv, big_text("THE INSIDE MAN", 230, WHITE, 14), TW * 0.71, TH * 0.40, "cm")
+    paste(cv, big_text("THE DIAMOND HEIST", 200, WHITE, 22), TW * 0.71, TH * 0.10, "cm")
+    paste(cv, glow(big_text("$100 MILLION", 470, GOLD, 8), 40, 0.5), TW * 0.71, TH * 0.27, "cm")
+    paste(cv, big_text("THE INSIDE MAN", 230, WHITE, 14), TW * 0.71, TH * 0.46, "cm")
     return cv
 def concept_C():
     cv = Image.new("RGBA", (TW, TH), (14, 15, 18, 255))
@@ -121,7 +122,6 @@ def concept_C():
     cv = grade(cv, "right", 0.03)
     paste(cv, glow(big_text("$100,000,000", 580, GOLD, 8), 40, 0.55), TW * 0.5, TH * 0.38, "cm")
     paste(cv, big_text("STILL MISSING", 230, WHITE, 18), TW * 0.5, TH * 0.62, "cm")
-    paste(cv, big_text("THE DIAMOND HEIST", 250, WHITE, 26), TW * 0.5, TH * 0.15, "cm")
     return cv
 if __name__ == "__main__":
     for nm, fn in (("A", concept_A), ("B", concept_B), ("C", concept_C)):
