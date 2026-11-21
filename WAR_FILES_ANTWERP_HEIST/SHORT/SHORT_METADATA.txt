@@ -1,0 +1,31 @@
+WAR FILES — SHORT: THE ANTWERP DIAMOND HEIST
+File: SHORT_ANTWERP_HEIST.mp4 — 1080x1920 (9:16), 1:47, 24 fps, -14 LUFS
+
+════════ TITLE (pick one) ════════
+1. A Sandwich Exposed the $100 Million Diamond Heist        ← recommended
+2. They Robbed the World's Most Secure Diamond Vault
+3. $100 Million in Diamonds. Most Were Never Found.
+
+════════ DESCRIPTION ════════
+In 2003, thieves emptied a vault in Antwerp's diamond district reportedly protected by ten layers of security. Then a pile of roadside trash gave them away.
+▶ Full documentary: [PASTE THE LINK TO THE LONG VIDEO HERE]
+#Shorts #TrueCrime #DiamondHeist
+
+════════ HOW TO LINK IT TO THE LONG VIDEO ════════
+1. Upload the full documentary first (it can be public or scheduled).
+2. When uploading the Short in YouTube Studio → Details → "Related video" →
+   choose "The Antwerp Diamond Heist" (the long video).
+   A tappable link to the documentary then appears on the Short itself.
+   (From the phone app: when uploading the Short, look for "Related video" / "Add related video".)
+3. Also paste the documentary link into the description (above).
+
+════════ SETTINGS ════════
+Audience: "No, it's not made for kids"
+Category: Education
+Captions: already burned in; SHORT_SUBTITLES.srt is optional.
+Recommendation: publish the Short 1–3 days after the documentary, or the same day,
+once the related-video link is in place.
+
+════════ PINNED COMMENT ════════
+Full documentary on the channel: how the crew allegedly beat the vault, the two competing
+versions of the story, and where the diamonds might be. Link above 👆
