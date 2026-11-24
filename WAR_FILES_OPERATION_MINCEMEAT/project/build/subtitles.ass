@@ -1,0 +1,339 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Doc,Inter SemiBold,42,&H00F2F2F2,&H000000FF,&H00141414,&H8C000000,0,0,0,0,100,100,0.3,0,1,2.0,1.2,2,220,220,58,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.60,0:00:03.13,Doc,,0,0,0,,{\fad(100,80)}April 30th, 1943.
+Dialogue: 0,0:00:03.16,0:00:05.43,Doc,,0,0,0,,{\fad(100,80)}Four fifteen in the morning.
+Dialogue: 0,0:00:05.46,0:00:10.17,Doc,,0,0,0,,{\fad(100,80)}Just off the coast of southern Spain,\Na British submarine rises quietly to
+Dialogue: 0,0:00:10.20,0:00:12.11,Doc,,0,0,0,,{\fad(100,80)}the surface of a black sea.
+Dialogue: 0,0:00:13.26,0:00:19.49,Doc,,0,0,0,,{\fad(100,80)}That spring, British intelligence had sent a\Nman on a secret mission to deceive Nazi Germany.
+Dialogue: 0,0:00:19.52,0:00:23.53,Doc,,0,0,0,,{\fad(100,80)}He carried confidential\Ndocuments, a military identity,
+Dialogue: 0,0:00:23.56,0:00:26.67,Doc,,0,0,0,,{\fad(100,80)}and a story that could\Nchange the course of the war.
+Dialogue: 0,0:00:27.62,0:00:30.09,Doc,,0,0,0,,{\fad(100,80)}The Germans were supposed to find him.
+Dialogue: 0,0:00:30.12,0:00:32.01,Doc,,0,0,0,,{\fad(100,80)}They were supposed to believe him.
+Dialogue: 0,0:00:33.26,0:00:35.21,Doc,,0,0,0,,{\fad(100,80)}There was just one problem.
+Dialogue: 0,0:00:37.56,0:00:39.23,Doc,,0,0,0,,{\fad(100,80)}{\c&H004CA5C9&}He was already dead.{\c&H00F2F2F2&}
+Dialogue: 0,0:00:41.38,0:00:44.65,Doc,,0,0,0,,{\fad(100,80)}This is the story of the\Ndead man who fooled Hitler,
+Dialogue: 0,0:00:44.68,0:00:47.97,Doc,,0,0,0,,{\fad(100,80)}and of the real man,\Nforgotten for half a century,
+Dialogue: 0,0:00:48.00,0:00:49.93,Doc,,0,0,0,,{\fad(100,80)}whose body made it possible.
+Dialogue: 0,0:00:55.28,0:00:59.67,Doc,,0,0,0,,{\fad(100,80)}At around nine thirty that same morning,\Na Spanish fisherman working the water
+Dialogue: 0,0:00:59.70,0:01:03.05,Doc,,0,0,0,,{\fad(100,80)}near {\c&H004CA5C9&}Huelva{\c&H00F2F2F2&} saw something\Nfloating in the swell.
+Dialogue: 0,0:01:03.08,0:01:06.09,Doc,,0,0,0,,{\fad(100,80)}It was the body of a\Nman in British uniform.
+Dialogue: 0,0:01:06.94,0:01:11.79,Doc,,0,0,0,,{\fad(100,80)}Spanish soldiers carried him to {\c&H004CA5C9&}Huelva{\c&H00F2F2F2&}\Nand handed him to a naval judge.
+Dialogue: 0,0:01:11.82,0:01:15.23,Doc,,0,0,0,,{\fad(100,80)}The papers in his pockets\Nidentified him as Captain,
+Dialogue: 0,0:01:15.26,0:01:19.07,Doc,,0,0,0,,{\fad(100,80)}Acting Major, William\NMartin of the Royal Marines.
+Dialogue: 0,0:01:19.10,0:01:23.33,Doc,,0,0,0,,{\fad(100,80)}Attached to him by a leather-covered\Nchain was an official briefcase.
+Dialogue: 0,0:01:24.18,0:01:27.67,Doc,,0,0,0,,{\fad(100,80)}Everything about him\Nsuggested a tragedy at sea.
+Dialogue: 0,0:01:27.70,0:01:32.29,Doc,,0,0,0,,{\fad(100,80)}An officer, perhaps a passenger\Non an aircraft lost off the coast,
+Dialogue: 0,0:01:32.32,0:01:35.39,Doc,,0,0,0,,{\fad(100,80)}washed ashore with the\Npapers he had been carrying.
+Dialogue: 0,0:01:36.24,0:01:40.99,Doc,,0,0,0,,{\fad(100,80)}The British vice-consul in {\c&H004CA5C9&}Huelva{\c&H00F2F2F2&},\NFrancis Haselden, was informed.
+Dialogue: 0,0:01:41.02,0:01:46.45,Doc,,0,0,0,,{\fad(100,80)}Coded messages began to pass between him\Nand the British naval attaché in Madrid.
+Dialogue: 0,0:01:46.48,0:01:48.11,Doc,,0,0,0,,{\fad(100,80)}Their tone was urgent.
+Dialogue: 0,0:01:48.14,0:01:50.64,Doc,,0,0,0,,{\fad(100,80)}The briefcase, they implied, mattered.
+Dialogue: 0,0:01:51.49,0:01:55.98,Doc,,0,0,0,,{\fad(100,80)}Within days, the papers inside it would\Npass through Spanish hands and into
+Dialogue: 0,0:01:56.01,0:01:58.54,Doc,,0,0,0,,{\fad(100,80)}the files of German intelligence.
+Dialogue: 0,0:01:58.57,0:02:03.11,Doc,,0,0,0,,{\fad(100,80)}Within two weeks, Adolf Hitler himself\Nwould be weighing what they said.
+Dialogue: 0,0:02:03.96,0:02:06.23,Doc,,0,0,0,,{\fad(100,80)}So who was {\c&H004CA5C9&}Major William Martin{\c&H00F2F2F2&}?
+Dialogue: 0,0:02:06.26,0:02:08.45,Doc,,0,0,0,,{\fad(100,80)}Why was he carrying secrets?
+Dialogue: 0,0:02:08.48,0:02:11.99,Doc,,0,0,0,,{\fad(100,80)}And why did British intelligence\Nwant the enemy to read them?
+Dialogue: 0,0:02:13.04,0:02:15.63,Doc,,0,0,0,,{\fad(100,80)}To answer that, we have\Nto go back to London,
+Dialogue: 0,0:02:15.66,0:02:21.38,Doc,,0,0,0,,{\fad(100,80)}to a body in a mortuary, and to one of the\Nstrangest plans of the Second World War.
+Dialogue: 0,0:02:26.33,0:02:31.98,Doc,,0,0,0,,{\fad(100,80)}By the end of 1942, the war in the\NMediterranean had begun to turn.
+Dialogue: 0,0:02:32.01,0:02:35.72,Doc,,0,0,0,,{\fad(100,80)}Allied armies were driving\Nthe Axis out of North Africa,
+Dialogue: 0,0:02:35.75,0:02:40.32,Doc,,0,0,0,,{\fad(100,80)}and planners in London and Washington\Nwere already asking the next question:
+Dialogue: 0,0:02:40.35,0:02:41.93,Doc,,0,0,0,,{\fad(100,80)}where to strike at Europe.
+Dialogue: 0,0:02:42.78,0:02:49.05,Doc,,0,0,0,,{\fad(100,80)}A cross-Channel invasion of France\Nwas judged impossible before 1944.
+Dialogue: 0,0:02:49.08,0:02:53.41,Doc,,0,0,0,,{\fad(100,80)}Winston Churchill wanted to use the\Narmies in North Africa to attack what
+Dialogue: 0,0:02:53.44,0:02:55.80,Doc,,0,0,0,,{\fad(100,80)}he called Europe's soft underbelly.
+Dialogue: 0,0:02:56.65,0:02:58.92,Doc,,0,0,0,,{\fad(100,80)}There were two obvious choices.
+Dialogue: 0,0:02:58.95,0:03:04.00,Doc,,0,0,0,,{\fad(100,80)}The first was {\c&H004CA5C9&}Sicily{\c&H00F2F2F2&}, at the toe of Italy,\Nless than a hundred miles from Tunisia.
+Dialogue: 0,0:03:04.03,0:03:06.90,Doc,,0,0,0,,{\fad(100,80)}Taking it would open the\NMediterranean to Allied shipping,
+Dialogue: 0,0:03:06.93,0:03:10.36,Doc,,0,0,0,,{\fad(100,80)}and offer a stepping\Nstone into Italy itself.
+Dialogue: 0,0:03:10.39,0:03:14.38,Doc,,0,0,0,,{\fad(100,80)}The second was Greece and the Balkans,\Nwhere an invasion could threaten the
+Dialogue: 0,0:03:14.41,0:03:19.37,Doc,,0,0,0,,{\fad(100,80)}oil, copper, chrome and bauxite\Nthat fed Germany's war industry.
+Dialogue: 0,0:03:20.22,0:03:23.27,Doc,,0,0,0,,{\fad(100,80)}In January 1943, at the\NCasablanca Conference,
+Dialogue: 0,0:03:23.30,0:03:26.57,Doc,,0,0,0,,{\fad(100,80)}the Allies made their choice.
+Dialogue: 0,0:03:26.60,0:03:28.59,Doc,,0,0,0,,{\fad(100,80)}The target would be {\c&H004CA5C9&}Sicily{\c&H00F2F2F2&}.
+Dialogue: 0,0:03:28.62,0:03:34.42,Doc,,0,0,0,,{\fad(100,80)}The invasion was code-named Operation Husky,\Nand it would be launched no later than July.
+Dialogue: 0,0:03:35.27,0:03:37.84,Doc,,0,0,0,,{\fad(100,80)}But {\c&H004CA5C9&}Sicily{\c&H00F2F2F2&} was the obvious choice.
+Dialogue: 0,0:03:37.87,0:03:40.28,Doc,,0,0,0,,{\fad(100,80)}Anyone looking at a map could see it.
+Dialogue: 0,0:03:40.31,0:03:45.88,Doc,,0,0,0,,{\fad(100,80)}Churchill is reputed to have said that everyone\Nbut a bloody fool would know it was {\c&H004CA5C9&}Sicily{\c&H00F2F2F2&}.
+Dialogue: 0,0:03:45.91,0:03:48.82,Doc,,0,0,0,,{\fad(100,80)}If German divisions were\Nwaiting on its beaches,
+Dialogue: 0,0:03:48.85,0:03:51.45,Doc,,0,0,0,,{\fad(100,80)}the cost of the landings\Ncould be enormous.
+Dialogue: 0,0:03:52.30,0:03:54.61,Doc,,0,0,0,,{\fad(100,80)}The Allies needed Hitler\Nto look somewhere else,
+Dialogue: 0,0:03:54.64,0:03:56.95,Doc,,0,0,0,,{\fad(100,80)}and they knew where he\Nwas already looking.
+Dialogue: 0,0:03:56.98,0:03:59.55,Doc,,0,0,0,,{\fad(100,80)}Hitler feared an attack in the Balkans.
+Dialogue: 0,0:03:59.58,0:04:03.25,Doc,,0,0,0,,{\fad(100,80)}So the Allies built a wider\Ndeception, code-named Barclay,
+Dialogue: 0,0:04:03.28,0:04:07.43,Doc,,0,0,0,,{\fad(100,80)}to feed that fear: a fictional\NTwelfth Army based in Cairo,
+Dialogue: 0,0:04:07.46,0:04:11.05,Doc,,0,0,0,,{\fad(100,80)}dummy tanks in Syria, Greek\Ninterpreters recruited,
+Dialogue: 0,0:04:11.08,0:04:13.77,Doc,,0,0,0,,{\fad(100,80)}Greek maps and currency stockpiled.
+Dialogue: 0,0:04:14.62,0:04:19.37,Doc,,0,0,0,,{\fad(100,80)}But dummy armies and false radio\Ntraffic could only do so much.
+Dialogue: 0,0:04:19.40,0:04:22.57,Doc,,0,0,0,,{\fad(100,80)}What the planners needed was\Nevidence the enemy would believe,
+Dialogue: 0,0:04:22.60,0:04:25.82,Doc,,0,0,0,,{\fad(100,80)}because the enemy had\Nfound it for themselves.
+Dialogue: 0,0:04:30.57,0:04:33.30,Doc,,0,0,0,,{\fad(100,80)}The idea was not entirely new.
+Dialogue: 0,0:04:33.33,0:04:38.02,Doc,,0,0,0,,{\fad(100,80)}In September 1939, a memo circulated\Nby the Director of Naval Intelligence,
+Dialogue: 0,0:04:38.05,0:04:44.28,Doc,,0,0,0,,{\fad(100,80)}Admiral John Godfrey, listed dozens\Nof ways to deceive the enemy.
+Dialogue: 0,0:04:44.31,0:04:48.50,Doc,,0,0,0,,{\fad(100,80)}Historians have noted that it bore the\Nhallmarks of his personal assistant,
+Dialogue: 0,0:04:48.53,0:04:53.31,Doc,,0,0,0,,{\fad(100,80)}a young officer named Ian Fleming,\Nthe future creator of James Bond.
+Dialogue: 0,0:04:54.16,0:04:57.61,Doc,,0,0,0,,{\fad(100,80)}Item number twenty-eight\Ncarried a warning in its title:
+Dialogue: 0,0:04:57.64,0:05:00.63,Doc,,0,0,0,,{\fad(100,80)}a suggestion, not a very nice one.
+Dialogue: 0,0:05:00.66,0:05:03.55,Doc,,0,0,0,,{\fad(100,80)}It proposed planting\Nmisleading papers on a corpse,
+Dialogue: 0,0:05:03.58,0:05:05.60,Doc,,0,0,0,,{\fad(100,80)}to be found by the enemy.
+Dialogue: 0,0:05:06.65,0:05:13.24,Doc,,0,0,0,,{\fad(100,80)}In September 1942, an aircraft flying from\NBritain to Gibraltar crashed off Cádiz.
+Dialogue: 0,0:05:13.27,0:05:17.22,Doc,,0,0,0,,{\fad(100,80)}Among the dead was a British\Ncourier carrying secret documents.
+Dialogue: 0,0:05:17.25,0:05:20.26,Doc,,0,0,0,,{\fad(100,80)}His body washed up on the Spanish coast.
+Dialogue: 0,0:05:20.29,0:05:23.56,Doc,,0,0,0,,{\fad(100,80)}When it was returned, his\Nletter appeared unopened.
+Dialogue: 0,0:05:23.59,0:05:28.32,Doc,,0,0,0,,{\fad(100,80)}But other evidence showed that material\Nrecovered in Spain was reaching the Germans.
+Dialogue: 0,0:05:29.17,0:05:35.30,Doc,,0,0,0,,{\fad(100,80)}A month later, an RAF officer seconded\Nto MI5 put the idea on paper again.
+Dialogue: 0,0:05:35.33,0:05:39.42,Doc,,0,0,0,,{\fad(100,80)}His name was Charles Cholmondeley,\Nsecretary of the Twenty Committee,
+Dialogue: 0,0:05:39.45,0:05:43.10,Doc,,0,0,0,,{\fad(100,80)}the small secret group that\Nran Britain's double agents.
+Dialogue: 0,0:05:43.13,0:05:45.51,Doc,,0,0,0,,{\fad(100,80)}He called his plan Trojan Horse.
+Dialogue: 0,0:05:46.36,0:05:51.27,Doc,,0,0,0,,{\fad(100,80)}The committee turned it down as\Nunworkable, but saw potential in the idea.
+Dialogue: 0,0:05:51.30,0:05:55.19,Doc,,0,0,0,,{\fad(100,80)}Because the plan had a naval connection,\Nits chairman paired Cholmondeley
+Dialogue: 0,0:05:55.22,0:05:59.34,Doc,,0,0,0,,{\fad(100,80)}with the committee's naval\Nrepresentative: Ewen Montagu.
+Dialogue: 0,0:06:00.19,0:06:05.54,Doc,,0,0,0,,{\fad(100,80)}Montagu was a barrister and King's Counsel\Nwho had volunteered when the war began.
+Dialogue: 0,0:06:05.57,0:06:10.60,Doc,,0,0,0,,{\fad(100,80)}In Naval Intelligence, he ran the\Nsection that handled counter-espionage.
+Dialogue: 0,0:06:10.63,0:06:14.70,Doc,,0,0,0,,{\fad(100,80)}Together, he and Cholmondeley set out\Nto discover what a plan like this would
+Dialogue: 0,0:06:14.73,0:06:16.20,Doc,,0,0,0,,{\fad(100,80)}actually require.
+Dialogue: 0,0:06:17.05,0:06:20.30,Doc,,0,0,0,,{\fad(100,80)}First, they consulted Britain's\Nmost famous pathologist,
+Dialogue: 0,0:06:20.33,0:06:22.20,Doc,,0,0,0,,{\fad(100,80)}Sir Bernard Spilsbury.
+Dialogue: 0,0:06:22.23,0:06:26.14,Doc,,0,0,0,,{\fad(100,80)}Could a body convince a Spanish\Ndoctor that a man had died at sea?
+Dialogue: 0,0:06:26.17,0:06:28.66,Doc,,0,0,0,,{\fad(100,80)}Spilsbury's answer encouraged them.
+Dialogue: 0,0:06:28.69,0:06:33.12,Doc,,0,0,0,,{\fad(100,80)}Victims of air crashes over water often\Ndied of shock rather than drowning.
+Dialogue: 0,0:06:33.15,0:06:37.96,Doc,,0,0,0,,{\fad(100,80)}And in Spain, he advised, detailed\Npost-mortems were rarely carried out unless
+Dialogue: 0,0:06:37.99,0:06:40.27,Doc,,0,0,0,,{\fad(100,80)}the cause of death seemed important.
+Dialogue: 0,0:06:41.12,0:06:45.33,Doc,,0,0,0,,{\fad(100,80)}Then they needed the body itself: someone\Nwhose death would raise no questions,
+Dialogue: 0,0:06:45.36,0:06:48.41,Doc,,0,0,0,,{\fad(100,80)}and whom no one would\Ncome forward to claim.
+Dialogue: 0,0:06:48.44,0:06:52.37,Doc,,0,0,0,,{\fad(100,80)}Montagu turned to Bentley\NPurchase, a London coroner.
+Dialogue: 0,0:06:52.40,0:06:55.57,Doc,,0,0,0,,{\fad(100,80)}Bodies were not in short\Nsupply in wartime London,
+Dialogue: 0,0:06:55.60,0:06:56.89,Doc,,0,0,0,,{\fad(100,80)}Purchase told him.
+Dialogue: 0,0:06:56.92,0:06:59.57,Doc,,0,0,0,,{\fad(100,80)}But every single one\Nhad to be accounted for.
+Dialogue: 0,0:07:00.42,0:07:05.57,Doc,,0,0,0,,{\fad(100,80)}On the 28th of January\N1943, Purchase got in touch.
+Dialogue: 0,0:07:05.60,0:07:07.85,Doc,,0,0,0,,{\fad(100,80)}He had found a body that might work.
+Dialogue: 0,0:07:09.00,0:07:13.51,Doc,,0,0,0,,{\fad(100,80)}A week later, Montagu and Cholmondeley\Nsubmitted their plan to the Twenty Committee.
+Dialogue: 0,0:07:13.54,0:07:15.07,Doc,,0,0,0,,{\fad(100,80)}It needed a name.
+Dialogue: 0,0:07:15.10,0:07:18.39,Doc,,0,0,0,,{\fad(100,80)}Montagu took one from a list\Nof available code words:
+Dialogue: 0,0:07:18.42,0:07:20.09,Doc,,0,0,0,,{\fad(100,80)}{\c&H004CA5C9&}Operation Mincemeat{\c&H00F2F2F2&}.
+Dialogue: 0,0:07:25.04,0:07:27.19,Doc,,0,0,0,,{\fad(100,80)}The man in the mortuary had a name.
+Dialogue: 0,0:07:27.22,0:07:30.57,Doc,,0,0,0,,{\fad(100,80)}For more than fifty years,\Nalmost no one knew it.
+Dialogue: 0,0:07:31.72,0:07:37.25,Doc,,0,0,0,,{\fad(100,80)}He was {\c&H004CA5C9&}Glyndwr Michael{\c&H00F2F2F2&}, from Aberbargoed, a\Nmining town in the valleys of South Wales.
+Dialogue: 0,0:07:37.28,0:07:41.73,Doc,,0,0,0,,{\fad(100,80)}His father, a coal miner, took his\Nown life when Glyndwr was fifteen.
+Dialogue: 0,0:07:41.76,0:07:44.09,Doc,,0,0,0,,{\fad(100,80)}His mother died when he was thirty-one.
+Dialogue: 0,0:07:44.12,0:07:47.51,Doc,,0,0,0,,{\fad(100,80)}He had worked odd jobs as\Na gardener and a labourer.
+Dialogue: 0,0:07:47.54,0:07:50.61,Doc,,0,0,0,,{\fad(100,80)}Homeless, with no money\Nand no family to turn to,
+Dialogue: 0,0:07:50.64,0:07:51.98,Doc,,0,0,0,,{\fad(100,80)}he drifted to London.
+Dialogue: 0,0:07:52.83,0:07:59.68,Doc,,0,0,0,,{\fad(100,80)}In January 1943, he was found in an abandoned\Nwarehouse near King's Cross, seriously ill.
+Dialogue: 0,0:07:59.71,0:08:02.56,Doc,,0,0,0,,{\fad(100,80)}He had eaten rat poison\Ncontaining phosphorus,
+Dialogue: 0,0:08:02.59,0:08:05.14,Doc,,0,0,0,,{\fad(100,80)}a paste smeared on crusts of bread.
+Dialogue: 0,0:08:05.17,0:08:09.50,Doc,,0,0,0,,{\fad(100,80)}Whether he meant to end his life, or\Nwas simply starving, no one can say.
+Dialogue: 0,0:08:09.53,0:08:11.32,Doc,,0,0,0,,{\fad(100,80)}He died in St Pancras Hospital.
+Dialogue: 0,0:08:11.35,0:08:13.78,Doc,,0,0,0,,{\fad(100,80)}He was in his mid-thirties.
+Dialogue: 0,0:08:14.93,0:08:17.38,Doc,,0,0,0,,{\fad(100,80)}No relatives were found to claim him.
+Dialogue: 0,0:08:17.41,0:08:21.52,Doc,,0,0,0,,{\fad(100,80)}Montagu would later say that\Nthe family had given permission.
+Dialogue: 0,0:08:21.55,0:08:24.58,Doc,,0,0,0,,{\fad(100,80)}Historians have found no\Nevidence that they did.
+Dialogue: 0,0:08:25.73,0:08:28.88,Doc,,0,0,0,,{\fad(100,80)}The man they invented to take\Nhis place was very different.
+Dialogue: 0,0:08:28.91,0:08:32.56,Doc,,0,0,0,,{\fad(100,80)}Captain, Acting Major,\NWilliam Martin, Royal Marines,
+Dialogue: 0,0:08:32.59,0:08:35.46,Doc,,0,0,0,,{\fad(100,80)}attached to Combined\NOperations Headquarters.
+Dialogue: 0,0:08:35.49,0:08:40.28,Doc,,0,0,0,,{\fad(100,80)}Martin was a common enough name that several\Nreal officers of about that rank shared it.
+Dialogue: 0,0:08:40.31,0:08:43.06,Doc,,0,0,0,,{\fad(100,80)}As a Royal Marine, he\Ncame under the Admiralty,
+Dialogue: 0,0:08:43.09,0:08:47.22,Doc,,0,0,0,,{\fad(100,80)}so any inquiry about his death would\Ncome back to Naval Intelligence.
+Dialogue: 0,0:08:47.25,0:08:50.42,Doc,,0,0,0,,{\fad(100,80)}And an acting major was senior\Nenough to carry secrets,
+Dialogue: 0,0:08:50.45,0:08:53.56,Doc,,0,0,0,,{\fad(100,80)}but junior enough that no\None would expect to know him.
+Dialogue: 0,0:08:54.41,0:08:56.33,Doc,,0,0,0,,{\fad(100,80)}Then they gave him a life.
+Dialogue: 0,0:08:57.48,0:09:00.95,Doc,,0,0,0,,{\fad(100,80)}In his pockets they placed\Nwhat spies call {\c&H004CA5C9&}pocket litter{\c&H00F2F2F2&}:
+Dialogue: 0,0:09:00.98,0:09:04.35,Doc,,0,0,0,,{\fad(100,80)}the small, ordinary\Ndebris of a real person.
+Dialogue: 0,0:09:04.38,0:09:07.21,Doc,,0,0,0,,{\fad(100,80)}A photograph of a fiancée named Pam.
+Dialogue: 0,0:09:07.24,0:09:09.07,Doc,,0,0,0,,{\fad(100,80)}Two love letters from her.
+Dialogue: 0,0:09:09.10,0:09:12.79,Doc,,0,0,0,,{\fad(100,80)}A receipt from a Bond Street jeweller\Nfor a diamond engagement ring,
+Dialogue: 0,0:09:12.82,0:09:17.05,Doc,,0,0,0,,{\fad(100,80)}priced at fifty-three pounds,\Nten shillings and sixpence.
+Dialogue: 0,0:09:17.90,0:09:19.81,Doc,,0,0,0,,{\fad(100,80)}A stern letter from his father.
+Dialogue: 0,0:09:19.84,0:09:22.01,Doc,,0,0,0,,{\fad(100,80)}A note from the family solicitor.
+Dialogue: 0,0:09:22.04,0:09:25.93,Doc,,0,0,0,,{\fad(100,80)}A demand from Lloyds Bank about an\Noverdraft of seventy-nine pounds,
+Dialogue: 0,0:09:25.96,0:09:27.31,Doc,,0,0,0,,{\fad(100,80)}nineteen shillings and twopence.
+Dialogue: 0,0:09:27.34,0:09:30.07,Doc,,0,0,0,,{\fad(100,80)}Theatre ticket stubs.
+Dialogue: 0,0:09:30.10,0:09:33.17,Doc,,0,0,0,,{\fad(100,80)}A bill for four nights at\Nthe Naval and Military Club.
+Dialogue: 0,0:09:33.20,0:09:38.05,Doc,,0,0,0,,{\fad(100,80)}Keys, cigarettes, stamps, a silver\Ncross and a St Christopher medallion.
+Dialogue: 0,0:09:38.08,0:09:40.53,Doc,,0,0,0,,{\fad(100,80)}Together, they traced a\Nman's last week in London,
+Dialogue: 0,0:09:40.56,0:09:43.26,Doc,,0,0,0,,{\fad(100,80)}from the 18th to the 24th of April.
+Dialogue: 0,0:09:44.11,0:09:46.08,Doc,,0,0,0,,{\fad(100,80)}Pam was not real either.
+Dialogue: 0,0:09:46.11,0:09:50.07,Doc,,0,0,0,,{\fad(100,80)}The photograph was of an\NMI5 clerk named Jean Leslie.
+Dialogue: 0,0:09:51.12,0:09:53.33,Doc,,0,0,0,,{\fad(100,80)}The identity card was harder.
+Dialogue: 0,0:09:53.36,0:09:56.91,Doc,,0,0,0,,{\fad(100,80)}Photographs of the dead man looked\Nexactly like what they were.
+Dialogue: 0,0:09:56.94,0:09:59.63,Doc,,0,0,0,,{\fad(100,80)}So the team searched for a\Nliving man who resembled him,
+Dialogue: 0,0:09:59.66,0:10:03.25,Doc,,0,0,0,,{\fad(100,80)}and found one inside\NMI5: Captain Ronnie Reed,
+Dialogue: 0,0:10:03.28,0:10:07.79,Doc,,0,0,0,,{\fad(100,80)}who agreed to be photographed\Nin a Royal Marine uniform.
+Dialogue: 0,0:10:07.82,0:10:11.01,Doc,,0,0,0,,{\fad(100,80)}Montagu then spent weeks rubbing\Nthe cards against his trousers,
+Dialogue: 0,0:10:11.04,0:10:12.83,Doc,,0,0,0,,{\fad(100,80)}so they would look worn.
+Dialogue: 0,0:10:13.68,0:10:16.09,Doc,,0,0,0,,{\fad(100,80)}Even the uniform was broken in.
+Dialogue: 0,0:10:16.12,0:10:20.81,Doc,,0,0,0,,{\fad(100,80)}Cholmondeley, who was about the same\Nbuild, wore it until it looked lived in.
+Dialogue: 0,0:10:20.84,0:10:25.33,Doc,,0,0,0,,{\fad(100,80)}Piece by piece, a man who had died\Nalmost unnoticed was being turned into
+Dialogue: 0,0:10:25.36,0:10:28.70,Doc,,0,0,0,,{\fad(100,80)}an officer whose death the\Nenemy was meant to notice.
+Dialogue: 0,0:10:33.65,0:10:36.18,Doc,,0,0,0,,{\fad(100,80)}Now came the documents that mattered.
+Dialogue: 0,0:10:36.21,0:10:40.08,Doc,,0,0,0,,{\fad(100,80)}The key letter was written by\NLieutenant General Sir Archibald Nye,
+Dialogue: 0,0:10:40.11,0:10:45.06,Doc,,0,0,0,,{\fad(100,80)}Vice Chief of the Imperial General\NStaff, to General Sir Harold Alexander,
+Dialogue: 0,0:10:45.09,0:10:48.06,Doc,,0,0,0,,{\fad(100,80)}who commanded the Allied\Narmies in Tunisia.
+Dialogue: 0,0:10:48.09,0:10:51.48,Doc,,0,0,0,,{\fad(100,80)}After several drafts\Nfailed to sound natural,
+Dialogue: 0,0:10:51.51,0:10:53.79,Doc,,0,0,0,,{\fad(100,80)}Nye was asked to write it himself.
+Dialogue: 0,0:10:54.64,0:10:58.15,Doc,,0,0,0,,{\fad(100,80)}It read like a private letter\Nbetween two senior officers:
+Dialogue: 0,0:10:58.18,0:11:02.31,Doc,,0,0,0,,{\fad(100,80)}gossip, grievances, and\Nalmost in passing, the plan.
+Dialogue: 0,0:11:02.34,0:11:05.75,Doc,,0,0,0,,{\fad(100,80)}Allied forces, it suggested,\Nwould land in Greece,
+Dialogue: 0,0:11:05.78,0:11:08.39,Doc,,0,0,0,,{\fad(100,80)}near Cape Araxos and Kalamata.
+Dialogue: 0,0:11:08.42,0:11:11.43,Doc,,0,0,0,,{\fad(100,80)}{\c&H004CA5C9&}Sicily{\c&H00F2F2F2&} was mentioned, but\Nonly as a cover target.
+Dialogue: 0,0:11:12.28,0:11:15.93,Doc,,0,0,0,,{\fad(100,80)}A second letter, from Lord Louis\NMountbatten to Admiral Andrew Cunningham,
+Dialogue: 0,0:11:15.96,0:11:20.53,Doc,,0,0,0,,{\fad(100,80)}introduced Major Martin as an\Nexpert in amphibious warfare.
+Dialogue: 0,0:11:20.56,0:11:23.93,Doc,,0,0,0,,{\fad(100,80)}It even included a clumsy\Njoke about sardines,
+Dialogue: 0,0:11:23.96,0:11:28.13,Doc,,0,0,0,,{\fad(100,80)}which Montagu hoped the Germans\Nwould read as a hint at Sardinia.
+Dialogue: 0,0:11:28.16,0:11:31.55,Doc,,0,0,0,,{\fad(100,80)}And inside one letter, the\Nteam placed a {\c&H004CA5C9&}single eyelash{\c&H00F2F2F2&}.
+Dialogue: 0,0:11:31.58,0:11:35.96,Doc,,0,0,0,,{\fad(100,80)}If it was missing when the letter came\Nback, they would know it had been opened.
+Dialogue: 0,0:11:36.81,0:11:40.52,Doc,,0,0,0,,{\fad(100,80)}So the papers could not be\Noverlooked, they went into a briefcase,
+Dialogue: 0,0:11:40.55,0:11:43.64,Doc,,0,0,0,,{\fad(100,80)}attached to Martin by a\Nleather-covered chain,
+Dialogue: 0,0:11:43.67,0:11:47.68,Doc,,0,0,0,,{\fad(100,80)}the kind used by couriers, looped\Naround the belt of his trench coat.
+Dialogue: 0,0:11:48.53,0:11:49.74,Doc,,0,0,0,,{\fad(100,80)}Then the place.
+Dialogue: 0,0:11:49.77,0:11:53.54,Doc,,0,0,0,,{\fad(100,80)}Advised by the Admiralty's\Nhydrographer on tides and currents,
+Dialogue: 0,0:11:53.57,0:11:57.98,Doc,,0,0,0,,{\fad(100,80)}they chose the port of {\c&H004CA5C9&}Huelva{\c&H00F2F2F2&}, on\NSpain's southern Atlantic coast.
+Dialogue: 0,0:11:58.01,0:12:00.28,Doc,,0,0,0,,{\fad(100,80)}Spain was officially neutral.
+Dialogue: 0,0:12:00.31,0:12:04.44,Doc,,0,0,0,,{\fad(100,80)}But Montagu knew that in {\c&H004CA5C9&}Huelva{\c&H00F2F2F2&}\Nthere was a very active German agent,
+Dialogue: 0,0:12:04.47,0:12:08.56,Doc,,0,0,0,,{\fad(100,80)}Adolf Clauss of the Abwehr,\NGerman military intelligence,
+Dialogue: 0,0:12:08.59,0:12:11.72,Doc,,0,0,0,,{\fad(100,80)}with excellent contacts\Namong Spanish officials.
+Dialogue: 0,0:12:12.57,0:12:16.32,Doc,,0,0,0,,{\fad(100,80)}On the 13th of April, the Chiefs\Nof Staff approved the plan.
+Dialogue: 0,0:12:16.35,0:12:20.20,Doc,,0,0,0,,{\fad(100,80)}Two days later, Colonel John Bevan of\Nthe London Controlling Section briefed
+Dialogue: 0,0:12:20.23,0:12:21.82,Doc,,0,0,0,,{\fad(100,80)}Winston Churchill.
+Dialogue: 0,0:12:21.85,0:12:25.30,Doc,,0,0,0,,{\fad(100,80)}According to Bevan, he found\Nthe Prime Minister in bed,
+Dialogue: 0,0:12:25.33,0:12:27.10,Doc,,0,0,0,,{\fad(100,80)}smoking a cigar.
+Dialogue: 0,0:12:27.13,0:12:30.68,Doc,,0,0,0,,{\fad(100,80)}When Bevan warned that the Spanish\Nmight simply hand the body back with the
+Dialogue: 0,0:12:30.71,0:12:34.22,Doc,,0,0,0,,{\fad(100,80)}papers unread, Churchill\Nreplied that, in that case,
+Dialogue: 0,0:12:34.25,0:12:37.29,Doc,,0,0,0,,{\fad(100,80)}they would have to get the body\Nback and give it another swim.
+Dialogue: 0,0:12:38.14,0:12:43.88,Doc,,0,0,0,,{\fad(100,80)}Final approval came from General\NEisenhower's headquarters on the 17th of April.
+Dialogue: 0,0:12:44.83,0:12:48.22,Doc,,0,0,0,,{\fad(100,80)}In the early hours of that\Nsame day, in a London mortuary,
+Dialogue: 0,0:12:48.25,0:12:51.74,Doc,,0,0,0,,{\fad(100,80)}{\c&H004CA5C9&}Glyndwr Michael{\c&H00F2F2F2&} was dressed\Nas {\c&H004CA5C9&}Major William Martin{\c&H00F2F2F2&}.
+Dialogue: 0,0:12:51.77,0:12:54.14,Doc,,0,0,0,,{\fad(100,80)}The {\c&H004CA5C9&}pocket litter{\c&H00F2F2F2&} went into his pockets.
+Dialogue: 0,0:12:54.17,0:12:56.16,Doc,,0,0,0,,{\fad(100,80)}The briefcase was attached.
+Dialogue: 0,0:12:56.19,0:12:59.26,Doc,,0,0,0,,{\fad(100,80)}He was sealed in a steel\Ncanister packed with dry ice,
+Dialogue: 0,0:12:59.29,0:13:03.03,Doc,,0,0,0,,{\fad(100,80)}labelled: handle with\Ncare, optical instruments.
+Dialogue: 0,0:13:03.88,0:13:07.03,Doc,,0,0,0,,{\fad(100,80)}That night, a van driven\Nby a former racing driver,
+Dialogue: 0,0:13:07.06,0:13:11.65,Doc,,0,0,0,,{\fad(100,80)}St John Horsfall, carried the canister\Nmore than four hundred miles north
+Dialogue: 0,0:13:11.68,0:13:15.27,Doc,,0,0,0,,{\fad(100,80)}through the blackout to\NGreenock, on the River Clyde,
+Dialogue: 0,0:13:15.30,0:13:18.19,Doc,,0,0,0,,{\fad(100,80)}with Montagu and\NCholmondeley riding in the back.
+Dialogue: 0,0:13:19.04,0:13:23.19,Doc,,0,0,0,,{\fad(100,80)}There, it was taken aboard\Nthe submarine HMS Seraph.
+Dialogue: 0,0:13:23.22,0:13:27.69,Doc,,0,0,0,,{\fad(100,80)}Her commander, Lieutenant Bill Jewell,\Ntold his crew the canister held a secret
+Dialogue: 0,0:13:27.72,0:13:29.59,Doc,,0,0,0,,{\fad(100,80)}weather-reporting device.
+Dialogue: 0,0:13:30.44,0:13:35.47,Doc,,0,0,0,,{\fad(100,80)}Seraph sailed on the 19th of April,\Nand was bombed twice on the way south.
+Dialogue: 0,0:13:35.50,0:13:38.65,Doc,,0,0,0,,{\fad(100,80)}On the 29th, she reached\Nthe waters off {\c&H004CA5C9&}Huelva{\c&H00F2F2F2&}.
+Dialogue: 0,0:13:39.50,0:13:43.41,Doc,,0,0,0,,{\fad(100,80)}At four fifteen in the morning\Nof April 30th, she surfaced.
+Dialogue: 0,0:13:43.44,0:13:47.25,Doc,,0,0,0,,{\fad(100,80)}Jewell sent the crew below,\Nleaving only his officers on deck.
+Dialogue: 0,0:13:47.28,0:13:50.89,Doc,,0,0,0,,{\fad(100,80)}They opened the canister and\Nlowered the body into the sea.
+Dialogue: 0,0:13:50.92,0:13:53.31,Doc,,0,0,0,,{\fad(100,80)}Jewell read the thirty-ninth Psalm.
+Dialogue: 0,0:13:53.34,0:13:57.21,Doc,,0,0,0,,{\fad(100,80)}Then he ordered the engines full astern,\Nand the wash of the propellers pushed
+Dialogue: 0,0:13:57.24,0:13:59.00,Doc,,0,0,0,,{\fad(100,80)}the body toward the shore.
+Dialogue: 0,0:14:00.05,0:14:03.45,Doc,,0,0,0,,{\fad(100,80)}He signalled the Admiralty:\NMincemeat completed.
+Dialogue: 0,0:14:08.60,0:14:12.37,Doc,,0,0,0,,{\fad(100,80)}In Spain, the plan now depended\Non a chain of strangers.
+Dialogue: 0,0:14:12.40,0:14:16.35,Doc,,0,0,0,,{\fad(100,80)}On May 1st, two Spanish doctors\Ncarried out a post-mortem in {\c&H004CA5C9&}Huelva{\c&H00F2F2F2&},
+Dialogue: 0,0:14:16.38,0:14:19.11,Doc,,0,0,0,,{\fad(100,80)}with the British vice-consul present.
+Dialogue: 0,0:14:19.14,0:14:23.35,Doc,,0,0,0,,{\fad(100,80)}As the heat of the day rose, Haselden\Nsuggested that the doctors might like
+Dialogue: 0,0:14:23.38,0:14:25.51,Doc,,0,0,0,,{\fad(100,80)}to finish up and go to lunch.
+Dialogue: 0,0:14:25.54,0:14:31.06,Doc,,0,0,0,,{\fad(100,80)}They agreed, and recorded the cause of death\Nas asphyxiation through immersion in the sea.
+Dialogue: 0,0:14:31.91,0:14:36.52,Doc,,0,0,0,,{\fad(100,80)}The next day, {\c&H004CA5C9&}Major William Martin{\c&H00F2F2F2&} was\Nburied in {\c&H004CA5C9&}Huelva{\c&H00F2F2F2&}'s cemetery with full
+Dialogue: 0,0:14:36.55,0:14:38.12,Doc,,0,0,0,,{\fad(100,80)}military honours.
+Dialogue: 0,0:14:39.27,0:14:42.62,Doc,,0,0,0,,{\fad(100,80)}The briefcase, though,\Nstayed with the Spanish navy.
+Dialogue: 0,0:14:42.65,0:14:47.14,Doc,,0,0,0,,{\fad(100,80)}Despite pressure from Clauss, it was\Nnot handed straight to the Germans.
+Dialogue: 0,0:14:47.17,0:14:50.02,Doc,,0,0,0,,{\fad(100,80)}It went to the naval\Nheadquarters at San Fernando,
+Dialogue: 0,0:14:50.05,0:14:52.43,Doc,,0,0,0,,{\fad(100,80)}near Cádiz, and on to Madrid.
+Dialogue: 0,0:14:53.28,0:14:56.29,Doc,,0,0,0,,{\fad(100,80)}In Madrid, a senior Abwehr\Nofficer, Karl-Erich Kühlenthal,
+Dialogue: 0,0:14:56.32,0:15:03.09,Doc,,0,0,0,,{\fad(100,80)}asked Admiral Wilhelm Canaris, the head of\NGerman military intelligence, to intervene.
+Dialogue: 0,0:15:03.12,0:15:06.93,Doc,,0,0,0,,{\fad(100,80)}The Spanish found a way to read the\Nletters without breaking the seals.
+Dialogue: 0,0:15:06.96,0:15:10.39,Doc,,0,0,0,,{\fad(100,80)}They wound the damp paper tightly around\Na thin probe and drew it out through
+Dialogue: 0,0:15:10.42,0:15:12.75,Doc,,0,0,0,,{\fad(100,80)}the gap beneath the envelope flap.
+Dialogue: 0,0:15:12.78,0:15:17.49,Doc,,0,0,0,,{\fad(100,80)}The letters were dried, photographed,\Nsoaked in salt water again, and put back.
+Dialogue: 0,0:15:18.34,0:15:22.39,Doc,,0,0,0,,{\fad(100,80)}The information was passed to\Nthe Germans on the 8th of May.
+Dialogue: 0,0:15:22.42,0:15:27.94,Doc,,0,0,0,,{\fad(100,80)}Kühlenthal considered it so important that\Nhe took the documents to Germany himself.
+Dialogue: 0,0:15:28.89,0:15:32.42,Doc,,0,0,0,,{\fad(100,80)}On the 11th of May, the briefcase\Nwas returned to the British.
+Dialogue: 0,0:15:32.45,0:15:34.74,Doc,,0,0,0,,{\fad(100,80)}In London, the letters were examined.
+Dialogue: 0,0:15:34.77,0:15:36.66,Doc,,0,0,0,,{\fad(100,80)}The eyelash was gone.
+Dialogue: 0,0:15:36.69,0:15:41.46,Doc,,0,0,0,,{\fad(100,80)}The paper fibres showed extra folding,\Nand as the still-damp letters dried,
+Dialogue: 0,0:15:41.49,0:15:45.32,Doc,,0,0,0,,{\fad(100,80)}they curled back into the rolled shape\Nin which they had been pulled out.
+Dialogue: 0,0:15:45.35,0:15:46.82,Doc,,0,0,0,,{\fad(100,80)}{\c&H004CA5C9&}Someone had read them.{\c&H00F2F2F2&}
+Dialogue: 0,0:15:47.97,0:15:52.42,Doc,,0,0,0,,{\fad(100,80)}To keep the Germans from suspecting a\Ntrap, the British sent another message
+Dialogue: 0,0:15:52.45,0:15:57.42,Doc,,0,0,0,,{\fad(100,80)}they knew would be intercepted, claiming\Nthe envelopes had not been opened.
+Dialogue: 0,0:15:58.27,0:16:01.20,Doc,,0,0,0,,{\fad(100,80)}Then came the confirmation\Nthat mattered most.
+Dialogue: 0,0:16:01.23,0:16:05.28,Doc,,0,0,0,,{\fad(100,80)}At Bletchley Park, codebreakers decrypted\Na German message warning that the
+Dialogue: 0,0:16:05.31,0:16:10.52,Doc,,0,0,0,,{\fad(100,80)}Allied invasion would come in the Balkans,\Nwith a feint toward the Dodecanese.
+Dialogue: 0,0:16:10.55,0:16:14.26,Doc,,0,0,0,,{\fad(100,80)}A signal went to Churchill,\Nthen in the United States.
+Dialogue: 0,0:16:14.29,0:16:19.50,Doc,,0,0,0,,{\fad(100,80)}Mincemeat, it said, had been swallowed\N{\c&H004CA5C9&}rod, line and sinker{\c&H00F2F2F2&} by the right people.
+Dialogue: 0,0:16:20.35,0:16:24.14,Doc,,0,0,0,,{\fad(100,80)}On May 14th, Admiral\NKarl Dönitz met Hitler.
+Dialogue: 0,0:16:24.17,0:16:28.58,Doc,,0,0,0,,{\fad(100,80)}According to Dönitz's own record,\NHitler did not agree with Mussolini that
+Dialogue: 0,0:16:28.61,0:16:31.56,Doc,,0,0,0,,{\fad(100,80)}{\c&H004CA5C9&}Sicily{\c&H00F2F2F2&} was the most likely target.
+Dialogue: 0,0:16:31.59,0:16:35.70,Doc,,0,0,0,,{\fad(100,80)}He believed the captured Anglo-Saxon\Norder confirmed that the attacks would
+Dialogue: 0,0:16:35.73,0:16:39.14,Doc,,0,0,0,,{\fad(100,80)}be aimed mainly at Sardinia\Nand the Peloponnese.
+Dialogue: 0,0:16:39.99,0:16:44.96,Doc,,0,0,0,,{\fad(100,80)}Hitler ordered that Greece, Sardinia\Nand Corsica be defended at all costs.
+Dialogue: 0,0:16:44.99,0:16:49.38,Doc,,0,0,0,,{\fad(100,80)}The experienced 1st Panzer Division\Nwas sent from France to Greece.
+Dialogue: 0,0:16:49.41,0:16:52.60,Doc,,0,0,0,,{\fad(100,80)}By the end of June, German\Nstrength on Sardinia had doubled,
+Dialogue: 0,0:16:52.63,0:16:55.08,Doc,,0,0,0,,{\fad(100,80)}to about ten thousand men.
+Dialogue: 0,0:16:55.11,0:16:59.13,Doc,,0,0,0,,{\fad(100,80)}German torpedo boats were moved\Nfrom {\c&H004CA5C9&}Sicily{\c&H00F2F2F2&} to the Greek islands.
+Dialogue: 0,0:17:03.88,0:17:08.05,Doc,,0,0,0,,{\fad(100,80)}On the 9th of July 1943,\Nthe Allies invaded {\c&H004CA5C9&}Sicily{\c&H00F2F2F2&},
+Dialogue: 0,0:17:08.08,0:17:12.83,Doc,,0,0,0,,{\fad(100,80)}in what was then the largest\Namphibious assault of the war.
+Dialogue: 0,0:17:13.68,0:17:17.93,Doc,,0,0,0,,{\fad(100,80)}Intercepted German signals showed that,\Neven four hours after the landings
+Dialogue: 0,0:17:17.96,0:17:23.23,Doc,,0,0,0,,{\fad(100,80)}began, twenty-one aircraft were\Nleaving {\c&H004CA5C9&}Sicily{\c&H00F2F2F2&} to reinforce Sardinia.
+Dialogue: 0,0:17:23.26,0:17:27.45,Doc,,0,0,0,,{\fad(100,80)}Weeks later, Hitler was still\Nexpecting a blow in the Balkans.
+Dialogue: 0,0:17:27.48,0:17:32.90,Doc,,0,0,0,,{\fad(100,80)}In late July, he sent Field Marshal Erwin\NRommel to Greece to prepare its defence.
+Dialogue: 0,0:17:33.75,0:17:36.34,Doc,,0,0,0,,{\fad(100,80)}The fighting on {\c&H004CA5C9&}Sicily{\c&H00F2F2F2&} was hard.
+Dialogue: 0,0:17:36.37,0:17:41.14,Doc,,0,0,0,,{\fad(100,80)}Around sixty-five thousand German\Ntroops held off a far larger Allied army
+Dialogue: 0,0:17:41.17,0:17:45.16,Doc,,0,0,0,,{\fad(100,80)}long enough for many of them to\Nescape to the Italian mainland.
+Dialogue: 0,0:17:45.19,0:17:48.08,Doc,,0,0,0,,{\fad(100,80)}But the island fell in {\c&H004CA5C9&}thirty-eight days{\c&H00F2F2F2&}.
+Dialogue: 0,0:17:48.93,0:17:52.88,Doc,,0,0,0,,{\fad(100,80)}According to the historian Ben\NMacintyre, the British had expected around
+Dialogue: 0,0:17:52.91,0:17:58.60,Doc,,0,0,0,,{\fad(100,80)}ten thousand casualties in the first week;\Nthe real figure was about a seventh of that.
+Dialogue: 0,0:17:58.63,0:18:02.38,Doc,,0,0,0,,{\fad(100,80)}The navy had prepared to lose\Nas many as three hundred ships.
+Dialogue: 0,0:18:02.41,0:18:04.04,Doc,,0,0,0,,{\fad(100,80)}{\c&H004CA5C9&}It lost twelve.{\c&H00F2F2F2&}
+Dialogue: 0,0:18:04.07,0:18:08.18,Doc,,0,0,0,,{\fad(100,80)}A campaign expected to take ninety\Ndays was over in thirty-eight.
+Dialogue: 0,0:18:09.03,0:18:13.54,Doc,,0,0,0,,{\fad(100,80)}In the middle of the campaign, Mussolini\Nwas voted down by his own Fascist
+Dialogue: 0,0:18:13.57,0:18:16.58,Doc,,0,0,0,,{\fad(100,80)}Grand Council and removed from power.
+Dialogue: 0,0:18:17.63,0:18:20.80,Doc,,0,0,0,,{\fad(100,80)}So did {\c&H004CA5C9&}Operation Mincemeat{\c&H00F2F2F2&}\Nwin the battle for {\c&H004CA5C9&}Sicily{\c&H00F2F2F2&}?
+Dialogue: 0,0:18:20.83,0:18:22.84,Doc,,0,0,0,,{\fad(100,80)}Historians are careful here.
+Dialogue: 0,0:18:22.87,0:18:26.40,Doc,,0,0,0,,{\fad(100,80)}Michael Howard called it perhaps the most\Nsuccessful single deception operation
+Dialogue: 0,0:18:26.43,0:18:28.22,Doc,,0,0,0,,{\fad(100,80)}of the entire war.
+Dialogue: 0,0:18:28.25,0:18:32.26,Doc,,0,0,0,,{\fad(100,80)}But he also argued that Hitler's\Nlong-standing obsession with the Balkans
+Dialogue: 0,0:18:32.29,0:18:35.22,Doc,,0,0,0,,{\fad(100,80)}mattered more than any single deception.
+Dialogue: 0,0:18:35.25,0:18:39.06,Doc,,0,0,0,,{\fad(100,80)}Others point to Hitler's\Ndistrust of his Italian allies.
+Dialogue: 0,0:18:39.09,0:18:43.66,Doc,,0,0,0,,{\fad(100,80)}Macintyre writes that its exact\Nimpact is impossible to calculate.
+Dialogue: 0,0:18:44.51,0:18:46.46,Doc,,0,0,0,,{\fad(100,80)}What can be said is this.
+Dialogue: 0,0:18:46.49,0:18:50.04,Doc,,0,0,0,,{\fad(100,80)}At the moment it mattered, German\Nattention, and German troops,
+Dialogue: 0,0:18:50.07,0:18:52.32,Doc,,0,0,0,,{\fad(100,80)}were pointed in the wrong direction.
+Dialogue: 0,0:18:52.35,0:18:54.90,Doc,,0,0,0,,{\fad(100,80)}And a dead man had\Nhelped to put them there.
+Dialogue: 0,0:19:00.05,0:19:02.72,Doc,,0,0,0,,{\fad(100,80)}After the war, the story\Nleaked into fiction,
+Dialogue: 0,0:19:02.75,0:19:07.86,Doc,,0,0,0,,{\fad(100,80)}first in a 1950 novel by the former\Ncabinet minister Duff Cooper.
+Dialogue: 0,0:19:07.89,0:19:12.72,Doc,,0,0,0,,{\fad(100,80)}British security decided the best answer\Nwas to tell a version of the truth.
+Dialogue: 0,0:19:12.75,0:19:16.82,Doc,,0,0,0,,{\fad(100,80)}Montagu wrote The Man\NWho Never Was in 1953.
+Dialogue: 0,0:19:16.85,0:19:19.93,Doc,,0,0,0,,{\fad(100,80)}It sold millions of\Ncopies and became a film.
+Dialogue: 0,0:19:20.78,0:19:24.17,Doc,,0,0,0,,{\fad(100,80)}But he never revealed who\Nthe dead man really was.
+Dialogue: 0,0:19:24.20,0:19:26.57,Doc,,0,0,0,,{\fad(100,80)}He described him as a\Nbit of a ne'er-do-well,
+Dialogue: 0,0:19:26.60,0:19:30.29,Doc,,0,0,0,,{\fad(100,80)}and said that the only\Nworthwhile thing he ever did,
+Dialogue: 0,0:19:30.32,0:19:31.94,Doc,,0,0,0,,{\fad(100,80)}he did after his death.
+Dialogue: 0,0:19:33.29,0:19:38.06,Doc,,0,0,0,,{\fad(100,80)}In {\c&H004CA5C9&}Huelva{\c&H00F2F2F2&}, a headstone stood over the\Ngrave of a man who had never existed.
+Dialogue: 0,0:19:38.09,0:19:42.24,Doc,,0,0,0,,{\fad(100,80)}It named his invented parents,\Nand ended with a line of Latin:
+Dialogue: 0,0:19:42.27,0:19:45.35,Doc,,0,0,0,,{\fad(100,80)}it is sweet and fitting\Nto die for one's country.
+Dialogue: 0,0:19:46.20,0:19:51.39,Doc,,0,0,0,,{\fad(100,80)}Then, in 1996, an amateur historian\Nnamed Roger Morgan found the answer in
+Dialogue: 0,0:19:51.42,0:19:54.03,Doc,,0,0,0,,{\fad(100,80)}Britain's Public Record Office.
+Dialogue: 0,0:19:54.06,0:19:56.57,Doc,,0,0,0,,{\fad(100,80)}The body was {\c&H004CA5C9&}Glyndwr Michael{\c&H00F2F2F2&}.
+Dialogue: 0,0:19:56.60,0:20:01.35,Doc,,0,0,0,,{\fad(100,80)}In the late 1990s, a new line\Nwas added to the grave in {\c&H004CA5C9&}Huelva{\c&H00F2F2F2&}.
+Dialogue: 0,0:20:02.20,0:20:05.71,Doc,,0,0,0,,{\fad(100,80)}{\c&H004CA5C9&}Glyndwr Michael{\c&H00F2F2F2&} served\Nas {\c&H004CA5C9&}Major William Martin{\c&H00F2F2F2&}.
+Dialogue: 0,0:20:07.26,0:20:11.31,Doc,,0,0,0,,{\fad(100,80)}Some researchers have since argued\Nthat a different body was used,
+Dialogue: 0,0:20:11.34,0:20:16.51,Doc,,0,0,0,,{\fad(100,80)}a sailor lost with the\Ncarrier HMS Dasher in 1943.
+Dialogue: 0,0:20:16.54,0:20:19.67,Doc,,0,0,0,,{\fad(100,80)}The official records of the\Noperation, and most historians,
+Dialogue: 0,0:20:19.70,0:20:21.91,Doc,,0,0,0,,{\fad(100,80)}name {\c&H004CA5C9&}Glyndwr Michael{\c&H00F2F2F2&}.
+Dialogue: 0,0:20:22.76,0:20:27.87,Doc,,0,0,0,,{\fad(100,80)}In Aberbargoed, the town he left behind,\Nhis name now stands on the war memorial,
+Dialogue: 0,0:20:27.90,0:20:32.12,Doc,,0,0,0,,{\fad(100,80)}beneath a Welsh inscription:\Nthe man who never was.
+Dialogue: 0,0:20:33.27,0:20:35.64,Doc,,0,0,0,,{\fad(100,80)}He never wore a uniform in life.
+Dialogue: 0,0:20:35.67,0:20:37.40,Doc,,0,0,0,,{\fad(100,80)}He never chose to serve.
+Dialogue: 0,0:20:37.43,0:20:40.50,Doc,,0,0,0,,{\fad(100,80)}He could not have known\Nwhat was done in his name.
+Dialogue: 0,0:20:40.53,0:20:45.38,Doc,,0,0,0,,{\fad(100,80)}But in the spring of 1943, a forgotten\Nman from the Welsh valleys carried
+Dialogue: 0,0:20:45.41,0:20:49.81,Doc,,0,0,0,,{\fad(100,80)}one of the most consequential\Ndeceptions of the war across the sea.
+Dialogue: 0,0:20:50.96,0:20:53.97,Doc,,0,0,0,,{\fad(100,80)}The Germans believed in\N{\c&H004CA5C9&}Major William Martin{\c&H00F2F2F2&}.
+Dialogue: 0,0:20:54.00,0:20:57.27,Doc,,0,0,0,,{\fad(100,80)}History, at last,\Nremembers {\c&H004CA5C9&}Glyndwr Michael{\c&H00F2F2F2&}.

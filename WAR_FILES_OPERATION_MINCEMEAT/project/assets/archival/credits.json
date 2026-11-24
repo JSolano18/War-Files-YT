@@ -1,0 +1,56 @@
+{
+ "montagu_cholmondeley": {
+  "file": "montagu_cholmondeley.jpg",
+  "title": "File:Charles Cholmondeley and Ewen Montagu.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Charles_Cholmondeley_and_Ewen_Montagu.jpg",
+  "license": "Public domain",
+  "artist": "St. John \"Jock\" Horsfall",
+  "desc": "Charles Cholmondeley and Ewen Montagu, two of the British intelligence officers involved in the planning of <a href=\"https://en.wikipedia.org/wiki/Operation_Mincemeat\" class=\"extiw\" title=\"en:Operation Min",
+  "credit": "Photo: St. John \"Jock\" Horsfall / Wikimedia Commons / Public domain"
+ },
+ "montagu_small": {
+  "file": "montagu_small.jpg",
+  "title": "File:Ewen Montagu in 1943.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Ewen_Montagu_in_1943.jpg",
+  "license": "Public domain",
+  "artist": "St. John \"Jock\" Horsfall",
+  "desc": "Charles Cholmondeley and Ewen Montagu, two of the British intelligence officers involved in the planning of <a href=\"https://en.wikipedia.org/wiki/Operation_Mincemeat\" class=\"extiw\" title=\"en:Operation Min",
+  "credit": "Photo: St. John \"Jock\" Horsfall / Wikimedia Commons / Public domain"
+ },
+ "reed": {
+  "file": "reed.jpeg",
+  "title": "File:Ronnie Reed in 1945.jpeg",
+  "source": "https://commons.wikimedia.org/wiki/File:Ronnie_Reed_in_1945.jpeg",
+  "license": "CC BY-SA 3.0",
+  "artist": "the Reed family collection",
+  "desc": "Ronnie Reed in uniform in 1945",
+  "credit": "Photo: the Reed family collection / Wikimedia Commons / CC BY-SA 3.0"
+ },
+ "id_card": {
+  "file": "id_card.jpg",
+  "title": "File:Major Martin.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Major_Martin.jpg",
+  "license": "Public domain",
+  "artist": "Ewen Montagu Team",
+  "desc": "\"Major Martin\" ID Card",
+  "credit": "Photo: Ewen Montagu Team / Wikimedia Commons / Public domain"
+ },
+ "pam": {
+  "file": "pam.jpg",
+  "title": "File:UK National Archives - WO 1065921.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:UK_National_Archives_-_WO_1065921.jpg",
+  "license": "Public domain",
+  "artist": "The National Archives",
+  "desc": "An MI5 staff member pictured on beach. This ordinary looking snapshot planted as part of a complex Second World War intelligence plan known as <a href=\"https://en.wikipedia.org/wiki/Operation_Mincemeat\" class=\"extiw\" title=\"",
+  "credit": "Photo: The National Archives / Wikimedia Commons / Public domain"
+ },
+ "seraph_underway": {
+  "file": "seraph_underway.jpg",
+  "title": "File:The Royal Navy during the Second World War HMS Seraph returns to Portsmouth IWM A 21106.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:The_Royal_Navy_during_the_Second_World_War_HMS_Seraph_returns_to_Portsmouth_IWM_A_21106.jpg",
+  "license": "Public domain",
+  "artist": "Pelman, L (Lt), Royal Navy official photographer",
+  "desc": "The Royal Navy during the Second World War HMS SERAPH arriving home at Portsmouth after 13 busy months. On the bridge, left to right: Lieutenant F G Harris, RNVR, of Sale, Cheshire; Lieutenant N L A Jewell, of Pinner, Middlesex, the Commanding Officer Warrant Engineer M M Stevenson, DSC,",
+  "credit": "Photo: Pelman, L (Lt), Royal Navy official photographer / Wikimedia Commons / Public domain"
+ }
+}

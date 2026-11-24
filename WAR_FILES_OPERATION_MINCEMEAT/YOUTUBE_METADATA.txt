@@ -1,0 +1,86 @@
+WAR FILES — YOUTUBE METADATA
+THE DEAD MAN WHO FOOLED HITLER (Operation Mincemeat, 1943)
+
+════════ PRIMARY TITLE ════════
+The Dead Man Who Fooled Hitler
+
+════════ ALTERNATIVE TITLES ════════
+1. The Dead Man Who Fooled Hitler: Operation Mincemeat
+2. Britain's Strangest Spy Was Already Dead
+3. How a Corpse Tricked Hitler Before the Invasion of Sicily
+4. The Man Who Never Was: The True Story of Operation Mincemeat
+5. They Gave a Dead Man a Fake Life to Deceive the Nazis
+
+Why the primary title works with the thumbnail: the title names the result (Hitler was fooled);
+the thumbnail ("HE WAS ALREADY DEAD") supplies the twist. Together they raise the question the
+video answers — how could a dead man fool anyone? — without repeating each other.
+
+════════ THUMBNAIL ════════
+Recommended: THUMBNAIL_PRIMARY.png (concept A — the officer on the shore at dawn)
+Alternatives: thumbnails/THUMBNAIL_B.png (briefcase on the sand), thumbnails/THUMBNAIL_C.png (submarine at night)
+Comparison (1–5)        Clarity  Curiosity  Hierarchy  Mobile  Total
+A  Officer at dawn         5        5          5         5      20
+B  Briefcase on sand       4        4          4         4      16
+C  Submarine at night      4        4          4         3      15
+A wins: one human figure gives an instant focal point; the briefcase signals espionage; the dawn
+coastline places it at sea; the two-line headline with "ALREADY DEAD" in red reads at phone size.
+All three are original illustrations (no photographs, no depiction of a body).
+
+════════ DESCRIPTION (FULL) ════════
+In April 1943, a British officer washed ashore in southern Spain with a briefcase chained to his coat. Inside were letters revealing where the Allies would invade Europe. The Germans read every word.
+
+But Major William Martin never existed — and the man in his uniform was already dead.
+
+This WAR FILES documentary tells the true story of Operation Mincemeat: how two British intelligence officers, Ewen Montagu and Charles Cholmondeley, turned the body of a homeless Welshman into a fictional Royal Marine, gave him a fiancée, love letters, unpaid bills and a forged mission, and sent him by submarine to the coast near Huelva. We follow the papers from a Spanish beach to German intelligence and to Hitler himself — and look honestly at what the deception did, and did not, achieve before the invasion of Sicily.
+
+And we remember the real man behind "The Man Who Never Was": Glyndwr Michael, from Aberbargoed in South Wales.
+
+Subscribe to WAR FILES for more stories from the files of history.
+
+CHAPTERS
+00:00 Prologue: a submarine off Spain
+00:51 I. The Dead Man
+02:22 II. Fortress Europe
+04:26 III. A Very Strange Idea
+07:21 IV. The Man Who Never Was
+10:29 V. Into Enemy Hands
+14:04 VI. The Bait
+16:59 VII. Operation Husky
+18:56 VIII. The Forgotten Man
+
+SOURCES
+Ben Macintyre, Operation Mincemeat (2010) · Denis Smyth, Deathly Deception (2010) · Ewen Montagu, The Man Who Never Was (1953) · Michael Howard, Strategic Deception in the Second World War · The National Archives (UK) · Commonwealth War Graves Commission · Wikipedia: "Operation Mincemeat", "Glyndwr Michael"
+
+ARCHIVAL IMAGES (Wikimedia Commons; individual credits shown on screen)
+[FILLED IN FROM IMAGE_AND_MUSIC_CREDITS.txt — see "ARCHIVAL CREDIT LINES" there]
+
+Narration: synthetic voice (Kokoro open-source TTS). Music and sound design: original, by WAR FILES.
+Scenes marked DRAMATIZATION, ILLUSTRATION or RECREATION are reconstructions, not archival material.
+
+#WW2 #OperationMincemeat #WARFILES
+
+════════ DESCRIPTION (SHORT) ════════
+In 1943, British intelligence sent a dead man to deceive Hitler. Dressed as a Royal Marine officer and carrying fake invasion plans, he washed ashore in Spain — and the Germans believed him. The true story of Operation Mincemeat, and of Glyndwr Michael, the forgotten man behind it.
+
+════════ SEO KEYWORDS ════════
+Operation Mincemeat; The Man Who Never Was; Glyndwr Michael; Major William Martin; Ewen Montagu; Charles Cholmondeley; WW2 deception; invasion of Sicily 1943; Operation Husky; HMS Seraph; Huelva; British intelligence WW2; MI5 history; Ian Fleming Trout memo
+
+════════ TAGS (330 characters) ════════
+Operation Mincemeat, The Man Who Never Was, Glyndwr Michael, Major William Martin, Ewen Montagu, Charles Cholmondeley, WW2 deception, World War 2 documentary, invasion of Sicily, Operation Husky, HMS Seraph, Huelva 1943, British intelligence, MI5, Ian Fleming, Hitler deceived, WW2 history, military history documentary, WAR FILES
+
+════════ HASHTAGS ════════
+#WW2  #OperationMincemeat  #WARFILES
+
+════════ CATEGORY ════════
+Education
+
+════════ AUDIENCE ════════
+Not made for kids. No age restriction needed (no graphic imagery; the body is never shown).
+
+════════ PINNED COMMENT ════════
+The Germans believed in Major William Martin — a man who never existed. The real man inside the uniform, Glyndwr Michael, wasn't publicly identified until 1996.
+
+Historians still debate how much Mincemeat changed the outcome in Sicily, versus Hitler's own fixation on the Balkans. Where do you land? 👇
+
+════════ FILE NAME ════════
+the-dead-man-who-fooled-hitler-operation-mincemeat-war-files.mp4
