@@ -52,7 +52,11 @@ SOURCES
 Ben Macintyre, Operation Mincemeat (2010) · Denis Smyth, Deathly Deception (2010) · Ewen Montagu, The Man Who Never Was (1953) · Michael Howard, Strategic Deception in the Second World War · The National Archives (UK) · Commonwealth War Graves Commission · Wikipedia: "Operation Mincemeat", "Glyndwr Michael"
 
 ARCHIVAL IMAGES (Wikimedia Commons; individual credits shown on screen)
-[FILLED IN FROM IMAGE_AND_MUSIC_CREDITS.txt — see "ARCHIVAL CREDIT LINES" there]
+Photo: Ewen Montagu Team / Wikimedia Commons / Public domain
+Photo: St. John "Jock" Horsfall / Wikimedia Commons / Public domain
+Photo: The National Archives / Wikimedia Commons / Public domain
+Photo: the Reed family collection / Wikimedia Commons / CC BY-SA 3.0
+Photo: Pelman, L (Lt), Royal Navy official photographer / Wikimedia Commons / Public domain
 
 Narration: synthetic voice (Kokoro open-source TTS). Music and sound design: original, by WAR FILES.
 Scenes marked DRAMATIZATION, ILLUSTRATION or RECREATION are reconstructions, not archival material.
