@@ -118,3 +118,5 @@ Fuentes: transcripciones de *"How I Actually Make Viral Thumbnails"* (Isaac) y *
 
 ## 6. Lecciones aprendidas por video
 - **Operation Mincemeat (2026-11)**: "HE WAS ALREADY DEAD" repetía la idea del título ("The Dead Man…") → se eligió "HE NEVER EXISTED" (nueva paradoja, mejor lectura en móvil). Texto rojo sobre cielo naranja pierde contraste: oscurecer detrás del texto.
+- **Regla técnica**: dejar libre la **esquina inferior derecha** (~15 % ancho × 15 % alto): ahí YouTube pone la duración del video y tapa el texto. Detectado con `homepage_test.py` en Operation Mincemeat.
+- Fotos aportadas por el dueño del canal (p. ej. Hitler gritando): recortar símbolos nazis (brazalete) y confirmar la licencia/origen de la foto antes de publicar.

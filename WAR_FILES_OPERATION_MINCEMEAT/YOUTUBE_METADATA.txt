@@ -14,11 +14,18 @@ The Dead Man Who Fooled Hitler
 Rule: change the TITLE first (easier than the thumbnail); then wait for the channel's usual pick-up window before judging again.
 
 ════════ THUMBNAILS (built with WAR_FILES_PLAYBOOK/TITULOS_Y_MINIATURAS.md) ════════
-Recommended: THUMBNAIL_PRIMARY.png = thumbnails/THUMBNAIL_V2_NEVER_EXISTED.png
+Recommended: THUMBNAIL_PRIMARY.png = thumbnails/THUMBNAIL_V4_HITLER_NEVER_EXISTED.png
+  Types combined: famous face (Hitler — the video is about deceiving him) + simple object (the fake ID) + bold statement.
+  The face sits on the top-right third, the card on the left third; text kept clear of the duration badge (bottom-right).
+  !! PHOTO LICENCE: the Hitler photo was supplied by the channel owner; its source/licence is NOT verified. If it is an
+     agency photo (Getty, ullstein bild, AP…), it is copyrighted — license it or swap it for the Bundesarchiv photo
+     "Bild 183-J00282, Berlin, Hitler im Sportpalast" (CC BY-SA 3.0 DE; credit "Bundesarchiv, Bild 183-J00282 / CC-BY-SA 3.0").
+  Alternative with the same photo: thumbnails/THUMBNAIL_V5_HITLER_BELIEVED_IT.png ("AND HE BELIEVED IT").
+Previous recommendation (no photo, no licence question): thumbnails/THUMBNAIL_V2_NEVER_EXISTED.png
   Types combined: simple single object + hidden element (redacted photo) + bold statement. Accent colour: red.
   Why: complements the title instead of repeating it (title = "dead man fooled Hitler"; thumbnail = "he never existed"),
   best legibility in the mobile/desktop homepage simulation (WAR_FILES_PLAYBOOK/homepage_test.py).
-A/B alternatives (upload all three to YouTube "Test & Compare"):
+A/B alternatives (YouTube "Test & Compare" takes up to 3 — suggested set: V4, V2, V1):
   - thumbnails/THUMBNAIL_V1_SHOCK_OFFICER.png — target emotion + header ("SECRET MISSION · 1943 / HE WAS ALREADY DEAD").
     If V1 wins, use backup title 1 so the title doesn't repeat "dead".
   - thumbnails/THUMBNAIL_V3_SAME_MAN.png — comparison (Major William Martin vs Glyndwr Michael).
