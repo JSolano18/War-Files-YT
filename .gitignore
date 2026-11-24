@@ -3,3 +3,5 @@ WAR_FILES_ANTWERP_HEIST/project/build/
 *.mp4
 *.wav
 __pycache__/
+WAR_FILES_OPERATION_MINCEMEAT/project/build/*.log
+WAR_FILES_OPERATION_MINCEMEAT/project/build/chunks/
