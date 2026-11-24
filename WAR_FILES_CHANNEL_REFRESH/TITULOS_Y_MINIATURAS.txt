@@ -1,0 +1,41 @@
+WAR FILES — RENOVACIÓN DE TÍTULOS Y MINIATURAS (según WAR_FILES_PLAYBOOK/TITULOS_Y_MINIATURAS.md)
+
+════════ 1) ROBO DE AMBERES ════════  (acento: azul diamante)
+Título actual: "How Thieves Emptied the World's MOST Secure Di..." → se corta en móvil y lo importante queda al final.
+
+TÍTULO NUEVO (54 car.):  They Beat 10 Layers of Security. Then Left a Sandwich.
+MINIATURA:               ANTWERP/THUMBNAIL_A1_100M_GONE.png  ("$100,000,000 GONE" + bóveda abierta)
+  → El título da el giro (el sándwich); la miniatura da lo que está en juego ($100M). No se repiten.
+
+Alternativas (para "Probar y comparar"; cada miniatura con su título ideal):
+  A2_100M_MISTAKE (sándwich en bolsa de evidencia)  ↔  "How Thieves Beat the World's Safest Diamond Vault" (49)
+  A3_10_LAYERS_VS_SANDWICH (comparación)            ↔  "The $100 Million Heist That Should Have Been Impossible" (55)
+Títulos de reserva (si a las 24 h el CTR y las impresiones están bajo tu media):
+  1. The $100 Million Heist Undone by a Sandwich (43)
+  2. They Stole $100 Million Without Setting Off an Alarm (52)
+Nota: la miniatura actual usa una cara generada por IA rotulada "Leonardo Notarbartolo". La guía pide no presentar
+una cara inventada como la de una persona real; las nuevas no muestran ningún rostro.
+
+════════ 2) ELI COHEN ════════  (acento: verde radio)
+Título actual: "The Spy Who Almost Became Syria's Minister..." → se corta, y la idea de que casi fue ministro
+(viceministro de Defensa) es una afirmación muy repetida pero DISPUTADA por los historiadores.
+
+TÍTULO NUEVO (39 car.):  The Spy Who Fooled Syria for Four Years
+MINIATURA:               ELI_COHEN/THUMBNAIL_E1_RADIO_BETRAYED_HIM.png ("HIS RADIO BETRAYED HIM")
+  → El título plantea cómo engañó a Siria 4 años (1961–65); la miniatura abre la otra pregunta: ¿cómo lo descubrieron?
+
+Alternativas:
+  E2_MAN_IN_DAMASCUS (identidad falsa "Kamel Amin Thaabet")  ↔  "How One Man Fooled Syria's Elite for Four Years" (47)
+  E3_4_YEARS_UNDERCOVER (silueta sobre Damasco)               ↔  "The Businessman Who Was Really Israel's Spy" (43)
+Títulos de reserva:
+  1. Israel's Man in Damascus: The Eli Cohen Story (45)
+  2. The Mossad Spy Who Got Inside Syria's Inner Circle (50)
+IMPORTANTE: este video no lo produje yo. Antes de publicar, confirma que el video menciona su captura por las
+transmisiones de radio (detectadas por el contraespionaje sirio en enero de 1965); si no, usa E2 o E3.
+
+════════ 3) OPERATION MINCEMEAT (video nuevo) ════════
+Título: The Dead Man Who Fooled Hitler  ·  Miniatura: THUMBNAIL_V4_HITLER_NEVER_EXISTED (ya entregada).
+
+CÓMO CAMBIARLO EN YOUTUBE
+YouTube Studio → Contenido → (video) → Detalles → Título / Miniatura → Guardar.
+Para probar miniaturas: Detalles → Miniatura → "Probar y comparar" → sube las 3 del video.
