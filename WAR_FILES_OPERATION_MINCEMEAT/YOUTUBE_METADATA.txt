@@ -21,6 +21,9 @@ Recommended: THUMBNAIL_PRIMARY.png = thumbnails/THUMBNAIL_V4_HITLER_NEVER_EXISTE
      agency photo (Getty, ullstein bild, AP…), it is copyrighted — license it or swap it for the Bundesarchiv photo
      "Bild 183-J00282, Berlin, Hitler im Sportpalast" (CC BY-SA 3.0 DE; credit "Bundesarchiv, Bild 183-J00282 / CC-BY-SA 3.0").
   Alternative with the same photo: thumbnails/THUMBNAIL_V5_HITLER_BELIEVED_IT.png ("AND HE BELIEVED IT").
+  ID-card portrait: cropped from the ORIGINAL "Major Martin" identity card (Wikimedia Commons "Major Martin.jpg", public
+  domain) — the photo is MI5 officer Ronnie Reed, who posed for the fictitious Martin's card. An unrelated IWM WWI portrait
+  suggested for the box was NOT used (it would misrepresent a real person and IWM watermarked images are non-commercial).
 Previous recommendation (no photo, no licence question): thumbnails/THUMBNAIL_V2_NEVER_EXISTED.png
   Types combined: simple single object + hidden element (redacted photo) + bold statement. Accent colour: red.
   Why: complements the title instead of repeating it (title = "dead man fooled Hitler"; thumbnail = "he never existed"),

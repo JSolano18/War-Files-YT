@@ -38,9 +38,12 @@ def id_card(angle=5, scale=0.78):
     d.text((60, 50), "IDENTITY  ·  ROYAL MARINES", font=font(F_TYPE, 64), fill=(110, 40, 30))
     for i, (k, v) in enumerate([("NAME", "WILLIAM MARTIN"), ("RANK", "CAPT. (A/MAJOR)"), ("POSTED", "COMBINED OPS HQ")]):
         d.text((600, 200 + i * 150), k, font=font(F_TYPE, 46), fill=(90, 80, 66)); d.text((600, 255 + i * 150), v, font=font(F_TYPE, 70), fill=(30, 28, 26))
-    ph = Image.new("RGBA", (440, 560), (40, 40, 42, 255)); pd = ImageDraw.Draw(ph)
-    pd.ellipse([140, 120, 300, 300], fill=(16, 16, 18)); pd.pieslice([60, 280, 380, 700], 180, 360, fill=(16, 16, 18))
-    card.alpha_composite(ph.filter(ImageFilter.GaussianBlur(14)), (80, 200)); d.rectangle([80, 380, 520, 470], fill=(12, 12, 12))
+    # photo from the ORIGINAL 'Major Martin' identity card (MI5 officer Ronnie Reed posed for it) — public domain
+    src = Image.open(os.path.join(P, "assets", "archival", "id_card.jpg")).convert("L").crop((980, 239, 1285, 628))
+    src = ImageOps.autocontrast(src, cutoff=1).resize((440, 560), Image.LANCZOS)
+    tone = np.asarray(src, np.float32)[..., None] / 255; tone = tone * np.array([230, 222, 205]) + (1 - tone) * np.array([14, 12, 10])
+    ph = Image.fromarray(tone.clip(0, 255).astype(np.uint8)).convert("RGBA")
+    card.alpha_composite(ph, (80, 200)); d.rectangle([80, 200, 520, 760], outline=(60, 50, 40), width=4)
     card.alpha_composite(word("FICTITIOUS", 190, ACC, track=10).rotate(-12, expand=True, resample=Image.BICUBIC), (330, 470))
     card = card.resize((int(1500 * scale), int(1000 * scale)), Image.LANCZOS).rotate(angle, expand=True, resample=Image.BICUBIC)
     return card
