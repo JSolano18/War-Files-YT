@@ -8,6 +8,11 @@ color, Bebas Neue/Oswald, combine 2–3 thumbnail types, title ≤55 chars that 
 thumbnail complement each other, 3 genuinely different thumbnail variants, homepage simulation test with
 `WAR_FILES_PLAYBOOK/homepage_test.py`, backup titles + CTR plan).
 
+## Channel identity (since 2026-11)
+- Logo: brass seal with stencil "WF" monogram — `WAR_FILES_PLAYBOOK/brand/LOGO_WAR_FILES_transparent_1000.png`
+  (use it on end cards of new videos; the old helmet logo is retired). Generator: `WAR_FILES_BRANDING/src/branding.py`.
+- Banner: `WAR_FILES_BRANDING/FINAL/BANNER_WAR_FILES_2560x1440.jpg`.
+
 ## Project layout
 - One folder per documentary: `WAR_FILES_<SUBJECT>/` with deliverables at the top and `project/` (src, assets, research, build).
 - Do not modify previous documentary projects; copy shared code (`common.py`, `props.py`) into the new project.
