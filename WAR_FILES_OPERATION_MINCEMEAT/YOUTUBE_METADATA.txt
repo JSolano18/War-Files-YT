@@ -1,30 +1,32 @@
 WAR FILES — YOUTUBE METADATA
 THE DEAD MAN WHO FOOLED HITLER (Operation Mincemeat, 1943)
 
-════════ PRIMARY TITLE ════════
+════════ PRIMARY TITLE (30 chars) ════════
 The Dead Man Who Fooled Hitler
+(Front-loaded, opens a loop: how can a dead man fool anyone? Power words: Dead, Fooled, Hitler.)
 
-════════ ALTERNATIVE TITLES ════════
-1. The Dead Man Who Fooled Hitler: Operation Mincemeat
-2. Britain's Strangest Spy Was Already Dead
-3. How a Corpse Tricked Hitler Before the Invasion of Sicily
-4. The Man Who Never Was: The True Story of Operation Mincemeat
-5. They Gave a Dead Man a Fake Life to Deceive the Nazis
+════════ BACKUP TITLES — swap if CTR + impressions are both below channel average after 24 h ════════
+1. Hitler Believed a Man Who Never Existed                (39)  ← first swap; pairs with any thumbnail
+2. Britain Sent a Dead Man to Fool Hitler                 (38)
+3. They Gave a Dead Man a Fake Life. Hitler Believed It.  (52)  format: "They X. Then Y."
+4. The Spy Who Never Existed: WW2's Strangest Plan        (48)
+5. How a Corpse Moved Hitler's Army in 1943               (40)
+Rule: change the TITLE first (easier than the thumbnail); then wait for the channel's usual pick-up window before judging again.
 
-Why the primary title works with the thumbnail: the title names the result (Hitler was fooled);
-the thumbnail ("HE WAS ALREADY DEAD") supplies the twist. Together they raise the question the
-video answers — how could a dead man fool anyone? — without repeating each other.
-
-════════ THUMBNAIL ════════
-Recommended: THUMBNAIL_PRIMARY.png (concept A — the officer on the shore at dawn)
-Alternatives: thumbnails/THUMBNAIL_B.png (briefcase on the sand), thumbnails/THUMBNAIL_C.png (submarine at night)
-Comparison (1–5)        Clarity  Curiosity  Hierarchy  Mobile  Total
-A  Officer at dawn         5        5          5         5      20
-B  Briefcase on sand       4        4          4         4      16
-C  Submarine at night      4        4          4         3      15
-A wins: one human figure gives an instant focal point; the briefcase signals espionage; the dawn
-coastline places it at sea; the two-line headline with "ALREADY DEAD" in red reads at phone size.
-All three are original illustrations (no photographs, no depiction of a body).
+════════ THUMBNAILS (built with WAR_FILES_PLAYBOOK/TITULOS_Y_MINIATURAS.md) ════════
+Recommended: THUMBNAIL_PRIMARY.png = thumbnails/THUMBNAIL_V2_NEVER_EXISTED.png
+  Types combined: simple single object + hidden element (redacted photo) + bold statement. Accent colour: red.
+  Why: complements the title instead of repeating it (title = "dead man fooled Hitler"; thumbnail = "he never existed"),
+  best legibility in the mobile/desktop homepage simulation (WAR_FILES_PLAYBOOK/homepage_test.py).
+A/B alternatives (upload all three to YouTube "Test & Compare"):
+  - thumbnails/THUMBNAIL_V1_SHOCK_OFFICER.png — target emotion + header ("SECRET MISSION · 1943 / HE WAS ALREADY DEAD").
+    If V1 wins, use backup title 1 so the title doesn't repeat "dead".
+  - thumbnails/THUMBNAIL_V3_SAME_MAN.png — comparison (Major William Martin vs Glyndwr Michael).
+Scores (1–5)              Clarity  Curiosity  Hierarchy  Mobile  Complements title  Total
+V2 Never existed             5        5          5         5           5             25
+V1 Already dead              5        5          5         4           3             22
+V3 Same man                  4        5          4         4           5             22
+Older concepts (A/B/C) remain in thumbnails/ for reference.
 
 ════════ DESCRIPTION (FULL) ════════
 In April 1943, a British officer washed ashore in southern Spain with a briefcase chained to his coat. Inside were letters revealing where the Allies would invade Europe. The Germans read every word.
