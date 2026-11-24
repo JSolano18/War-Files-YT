@@ -150,7 +150,7 @@ P("The identity card was harder. Photographs of the dead man looked exactly like
    ("Montagu then spent weeks", "photo", dict(key="id_card", mode="kb", z=(1.4, 1.7), c0=(0.33, 0.45), c1=(0.3, 0.42)))]),
 P("Even the uniform was broken in. Cholmondeley, who was about the same build, wore it until it looked lived in. Piece by piece, a man who had died almost unnoticed was being turned into an officer whose death the enemy was meant to notice.",
   [(None, "uniform", dict(tag="ILLUSTRATION")),
-   ("Piece by piece", "photo", dict(key="montagu_cholmondeley", mode="kb", z=(1.0, 1.1), c1=(0.5, 0.4)))], 1.2),
+   ("Piece by piece", "litter", dict(focus="all", tag=REC, alt=1))], 1.2),
 
 # ═════════════════════════ V. INTO ENEMY HANDS ═════════════════════════
 CH("V", "INTO ENEMY HANDS", "Into enemy hands"),

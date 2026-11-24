@@ -1760,18 +1760,11 @@
 "end": 620.715875
 },
 {
-"kind": "photo",
+"kind": "litter",
 "p": {
-"key": "montagu_cholmondeley",
-"mode": "kb",
-"z": [
-1.0,
-1.1
-],
-"c1": [
-0.5,
-0.4
-]
+"focus": "all",
+"tag": "RECREATION \u2014 ILLUSTRATIVE",
+"alt": 1
 },
 "start": 620.715875,
 "end": 629.7516250000001
@@ -1796,10 +1789,10 @@
 "end": 637.4116250000001
 },
 {
-"kind": "ocean",
+"kind": "doc",
 "p": {
-"variant": "overcast",
-"tag": "ILLUSTRATION"
+"kind": "nye_env",
+"tag": "RECREATION \u2014 ILLUSTRATIVE"
 },
 "start": 637.4116250000001,
 "end": 642.9116250000001
@@ -2015,10 +2008,23 @@
 "end": 803.0988333333333
 },
 {
-"kind": "ocean",
+"kind": "photo",
 "p": {
-"variant": "overcast",
-"tag": "ILLUSTRATION"
+"key": "seraph_underway",
+"mode": "kb",
+"z": [
+1.25,
+1.5
+],
+"c0": [
+0.45,
+0.3
+],
+"c1": [
+0.6,
+0.28
+],
+"credit_extra": "HMS Seraph's bridge, December 1943"
 },
 "start": 803.0988333333333,
 "end": 810.1388333333334
@@ -2026,8 +2032,9 @@
 {
 "kind": "ocean",
 "p": {
-"variant": "overcast",
-"tag": "ILLUSTRATION"
+"variant": "dusk",
+"sub": "close",
+"tag": "DRAMATIZATION"
 },
 "start": 810.1388333333334,
 "end": 812.6188333333333
@@ -2143,10 +2150,16 @@
 "end": 871.6124583333333
 },
 {
-"kind": "ocean",
+"kind": "statement",
 "p": {
-"variant": "overcast",
-"tag": "ILLUSTRATION"
+"lines": [
+"MAJOR WILLIAM MARTIN",
+"BURIED IN HUELVA  \u00b7  2 MAY 1943  \u00b7  FULL MILITARY HONOURS"
+],
+"accent": [
+0
+],
+"style": "memorial"
 },
 "start": 871.6124583333333,
 "end": 878.9705833333333
@@ -2566,10 +2579,16 @@
 "end": 1172.9937916666659
 },
 {
-"kind": "ocean",
+"kind": "statement",
 "p": {
-"variant": "overcast",
-"tag": "ILLUSTRATION"
+"lines": [
+"MAJOR WILLIAM MARTIN",
+"BURIED IN HUELVA  \u00b7  2 MAY 1943  \u00b7  FULL MILITARY HONOURS"
+],
+"accent": [
+0
+],
+"style": "memorial"
 },
 "start": 1172.9937916666659,
 "end": 1180.0537916666658
@@ -2613,9 +2632,8 @@
 "end": 1198.1977083333325
 },
 {
-"kind": "ocean",
+"kind": "huelva_day",
 "p": {
-"variant": "overcast",
 "tag": "ILLUSTRATION"
 },
 "start": 1198.1977083333325,
@@ -2656,18 +2674,18 @@
 "end": 1222.4570416666659
 },
 {
-"kind": "ocean",
+"kind": "valleys",
 "p": {
-"variant": "overcast",
+"variant": "dusk",
 "tag": "ILLUSTRATION"
 },
 "start": 1222.4570416666659,
 "end": 1227.7114166666659
 },
 {
-"kind": "ocean",
+"kind": "valleys",
 "p": {
-"variant": "overcast",
+"variant": "dusk",
 "tag": "ILLUSTRATION",
 "alt": 1
 },

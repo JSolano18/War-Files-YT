@@ -1,0 +1,87 @@
+WAR FILES — THE DEAD MAN WHO FOOLED HITLER — IMAGE, AUDIO & ASSET CREDITS
+
+ARCHIVAL PHOTOGRAPHS USED IN THE FILM (each credited on screen, top-right)
+
+- Major Martin.jpg
+    Author/holder: Ewen Montagu Team
+    License: Public domain
+    Source: https://commons.wikimedia.org/wiki/File:Major_Martin.jpg
+    Used at: 00:21, 01:11, 08:25, 08:47, 09:50, 09:56, 10:07
+
+- Charles Cholmondeley and Ewen Montagu.jpg
+    Author/holder: St. John "Jock" Horsfall
+    License: Public domain
+    Source: https://commons.wikimedia.org/wiki/File:Charles_Cholmondeley_and_Ewen_Montagu.jpg
+    Used at: 05:28, 05:35, 05:57, 05:59, 06:05, 06:10, 19:12
+
+- UK National Archives - WO 1065921.jpg
+    Author/holder: The National Archives
+    License: Public domain
+    Source: https://commons.wikimedia.org/wiki/File:UK_National_Archives_-_WO_1065921.jpg
+    Used at: 09:04, 09:43
+
+- Ronnie Reed in 1945.jpeg
+    Author/holder: the Reed family collection
+    License: CC BY-SA 3.0
+    Source: https://commons.wikimedia.org/wiki/File:Ronnie_Reed_in_1945.jpeg
+    Used at: 10:02
+
+- The Royal Navy during the Second World War HMS Seraph returns to Portsmouth IWM A 21106.jpg
+    Author/holder: Pelman, L (Lt), Royal Navy official photographer
+    License: Public domain
+    Source: https://commons.wikimedia.org/wiki/File:The_Royal_Navy_during_the_Second_World_War_HMS_Seraph_returns_to_Portsmouth_IWM_A_21106.jpg
+    Used at: 13:18, 13:23
+
+ARCHIVAL CREDIT LINES (paste into the YouTube description)
+  Photo: Ewen Montagu Team / Wikimedia Commons / Public domain
+  Photo: St. John "Jock" Horsfall / Wikimedia Commons / Public domain
+  Photo: The National Archives / Wikimedia Commons / Public domain
+  Photo: the Reed family collection / Wikimedia Commons / CC BY-SA 3.0
+  Photo: Pelman, L (Lt), Royal Navy official photographer / Wikimedia Commons / Public domain
+
+LICENSE NOTES
+- 'Public domain' items are UK Crown-copyright (expired) or National Archives images as tagged on Wikimedia Commons.
+- Ronnie Reed photo: CC BY-SA 3.0 (the Reed family collection) — attribution is shown on screen and must stay in the description.
+- No image of the deceased Glyndwr Michael is used, by design.
+
+IMAGES RESEARCHED BUT NOT YET DOWNLOADED (Wikimedia rate-limited this session; illustrated substitutes used instead)
+  - seraph_officers: The officers of HM Submarine SERAPH on her return to Portsmouth after operations in the Mediterranean, 24 December 1943. A21112.jpg
+  - seraph_helm: The Royal Navy during the Second World War A26384.jpg
+  - grave: William Martin.jpg
+  - grave2: William Martin Lapida-2011-08-12.jpg
+  - aberbargoed: Glyndwr-michael-aberbargoed-y-dyn-na-fu-erioed.jpg
+  - hackney: Mincemeat -4.jpg
+  - husky1: The Royal Navy during the Second World War- Operation Husky, Sicily, July 1943 A17907.jpg
+  - husky2: British troops wade ashore during the invasion of Sicily, 10 July 1943. NA4275.jpg
+  - husky3: Landing beach on the opening day of the invasion of Sicily.jpg
+  - casablanca: Winston Churchill and President Roosevelt at the Casablanca Conference, January 1943. A14057.jpg
+  - churchill: President Roosevelt and Prime Minister Churchill at the Allied Conference in Casablanca, January 1943 A14152.jpg
+  - hitler: Adolf Hitler Karl Dönitz 1943. Grand Admiral Karl Doenitz (right) receives the Oak Leaves of the Knight's Cross of the Iron Cross from Third Reich leader Adolf Hitler.jpg
+  - doenitz: Bundesarchiv Bild 146-1976-127-06A, Karl Dönitz (cropped).jpg
+  - canaris: Bundesarchiv Bild 146-1979-013-43, Wilhelm Canaris.jpg
+  - huelva: Muelle de Riotinto-Huelva (2005).jpg
+  - bletchley: Bletchley Park Mansion.jpg
+  - nye: Major General a E Nye H15636.jpg
+  - mountbatten: Admiral Lord Louis Mountbatten, 1943. TR1230 (cropped).jpg
+  These can be swapped in later: run src/slow_fetch.py, then rebuild the timeline and re-render.
+
+ORIGINAL VISUALS
+All maps, sea/submarine/coastline scenes, London, Welsh valley, office, document recreations, briefcase, canister,
+evidence objects and thumbnails were procedurally rendered for this production (Python/Pillow/NumPy).
+Map geography: Natural Earth (public domain) via the world-atlas package (ISC licence).
+Document recreations quote only documented wording (Trout memo item 28, Nye letter key passage, 'Mincemeat completed');
+other text on recreated documents is illegible placeholder or redacted — no wording was invented.
+
+NARRATION
+Synthetic voice: Kokoro-82M (open-source TTS, Apache-2.0), voice blend am_michael/am_onyx. Disclose as AI-generated voice if required.
+Pronunciation and intelligibility were checked by automatic transcription (Whisper small, MIT licence).
+
+MUSIC & SOUND DESIGN
+Original, procedurally composed and synthesized for this film (strings, low drones, pizzicato, timpani, piano,
+ocean, rain, wind, submarine engine, typewriter, paper, Morse, impacts). No samples or third-party recordings. Rights: WAR FILES.
+
+FONTS
+Bebas Neue, Oswald, Inter, EB Garamond — SIL Open Font License 1.1; Special Elite — Apache 2.0 (via @fontsource).
+
+CHANNEL LOGO
+WAR FILES logo (provided by the channel) — used only on the closing card; no permanent watermark, per brief.

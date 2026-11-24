@@ -25,6 +25,12 @@ FALLBACK = {  # used only if an archival image could not be obtained/licensed
     "mussolini": ("statement", dict(lines=["25 JULY 1943", "MUSSOLINI REMOVED FROM POWER"], accent=[1], style="center")),
     "dasher": ("ocean", dict(variant="overcast", tag="ILLUSTRATION")), "cholmondeley": ("photo", dict(key="montagu_cholmondeley", mode="kb")),
     "montagu": ("photo", dict(key="montagu_cholmondeley", mode="kb")),
+    "seraph_officers": ("photo", dict(key="seraph_underway", mode="kb", z=(1.25, 1.5), c0=(0.45, 0.3), c1=(0.6, 0.28), credit_extra="HMS Seraph's bridge, December 1943")),
+    "seraph_helm": ("ocean", dict(variant="dusk", sub="close", tag="DRAMATIZATION")),
+    "grave": ("statement", dict(lines=["MAJOR WILLIAM MARTIN", "BURIED IN HUELVA  ·  2 MAY 1943  ·  FULL MILITARY HONOURS"], accent=[0], style="memorial")),
+    "grave2": ("huelva_day", dict(tag="ILLUSTRATION")),
+    "aberbargoed": ("valleys", dict(variant="dusk", tag="ILLUSTRATION")),
+    "nye": ("doc", dict(kind="nye_env", tag="RECREATION — ILLUSTRATIVE")),
 }
 
 
