@@ -45,3 +45,23 @@ Título: The Dead Man Who Fooled Hitler  ·  Miniatura: THUMBNAIL_V4_HITLER_NEVE
 CÓMO CAMBIARLO EN YOUTUBE
 YouTube Studio → Contenido → (video) → Detalles → Título / Miniatura → Guardar.
 Para probar miniaturas: Detalles → Miniatura → "Probar y comparar" → sube las 3 del video.
+
+════════ LISTA AMPLIA DE TÍTULOS (para escoger) ════════
+AMBERES (miniatura dice "$100 MILLION GONE" → el título NO repite la cifra)
+ ★ They Beat 10 Layers of Security. Then Left a Sandwich. (54)
+   The Heist Undone by a Half-Eaten Sandwich (41)
+   The Perfect Heist Had One Stupid Mistake (40)
+   No Alarm. No Witnesses. Then They Found the Trash. (50)
+   How Thieves Beat the World's Safest Diamond Vault (49)
+   They Robbed the Vault Nobody Could Rob (38)
+   The Diamond Heist That Should've Been Impossible (48)
+   The Inside Man Who Robbed Antwerp's Diamond Vault (49)
+ELI COHEN (miniatura dice "HIS RADIO BETRAYED HIM" → el título NO menciona la radio)
+ ★ The Spy Who Fooled Syria for Four Years (39)
+   Syria Trusted Him. He Worked for Israel. (40)
+   Israel's Spy Inside Syria's Inner Circle (40)
+   The Businessman Who Was Really Israel's Spy (43)
+   How a Mossad Spy Became a Damascus Insider (42)
+   The Mossad Spy Hiding in Plain Sight in Damascus (48)
+   He Fooled Syria's Elite for Years. Then They Found Him. (55)
+   Israel's Man in Damascus: The Eli Cohen Story (45)
