@@ -23,6 +23,10 @@ thumbnail complement each other, 3 genuinely different thumbnail variants, homep
 - Verify narration with Whisper small (`/home/user/models/whisper-small-ct2`, faster-whisper; pass numpy audio, not file paths).
   Fix mispronunciations with respellings in `SPOKEN`; coarticulation can break names (e.g. "chose Huelva" → rephrase).
 - Subtitles and shot cuts are timed from Whisper word timestamps.
+- Licensed real photos (preferred): `WAR_FILES_PLAYBOOK/photo_search.py` — Openverse (CC0/PDM/BY/BY-SA only) + Library of
+  Congress ("unrestricted" only). Environment `War-Files-YT` allows api.openverse.org, www.loc.gov, tile.loc.gov,
+  catalog.archives.gov, live.staticflickr.com. NARA's API needs a key (owner requests it from Catalog_API@nara.gov;
+  save via request_credential, host catalog.archives.gov, header x-api-key).
 - Wikimedia Commons: request slowly (rate limits trigger long 429 blocks); use standard thumbnail sizes or originals;
   never spoof user agents; record license/author per image; credit on screen.
 - No AI image/video generation is configured; a Gemini API key would need to be added as an environment network secret
