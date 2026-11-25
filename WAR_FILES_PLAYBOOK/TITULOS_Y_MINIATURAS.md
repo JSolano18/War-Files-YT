@@ -121,3 +121,8 @@ Fuentes: transcripciones de *"How I Actually Make Viral Thumbnails"* (Isaac) y *
 - **Regla técnica**: dejar libre la **esquina inferior derecha** (~15 % ancho × 15 % alto): ahí YouTube pone la duración del video y tapa el texto. Detectado con `homepage_test.py` en Operation Mincemeat.
 - Fotos aportadas por el dueño del canal (p. ej. Hitler gritando): recortar símbolos nazis (brazalete) y confirmar la licencia/origen de la foto antes de publicar.
 - **Orden del texto** (preferencia del dueño, nov 2026): bloque de texto **alineado a un solo margen** (normalmente a la izquierda), espaciado uniforme, jerarquía clara (cabecera pequeña dorada + línea dorada → cifra/frase grande → palabra de acento). Nada de líneas centradas en puntos distintos ni elementos decorativos sueltos (p. ej., montones de diamantes) que desordenen. Fondo oscuro limpio (degradado) detrás del bloque de texto.
+
+## 7. Imágenes reales (instrucción del dueño, nov 2026)
+- Cartas, documentos, personas, lugares y objetos que deban ser "los de verdad" se muestran con **imágenes reales de uso comercial**, en el video y en las miniaturas.
+- Buscar primero con `WAR_FILES_PLAYBOOK/photo_search.py` (Openverse + Library of Congress).
+- Si no aparecen ahí: **avisar al dueño con la lista exacta de imágenes que faltan**; él las proporciona (libres para uso comercial).

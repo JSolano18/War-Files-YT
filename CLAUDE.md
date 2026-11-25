@@ -13,6 +13,16 @@ thumbnail complement each other, 3 genuinely different thumbnail variants, homep
   (use it on end cards of new videos; the old helmet logo is retired). Generator: `WAR_FILES_BRANDING/src/branding.py`.
 - Banner: `WAR_FILES_BRANDING/FINAL/BANNER_WAR_FILES_2560x1440.jpg`.
 
+## Real images rule (owner's instruction, Nov 2026) — ALWAYS
+- Letters, documents, people, places, objects and anything else that must be "the real one" are shown with REAL,
+  commercially-usable images — never illustrations or AI stand-ins.
+- Search first with `WAR_FILES_PLAYBOOK/photo_search.py` (Openverse + Library of Congress).
+- If a needed real image is not found there, STOP and tell the owner exactly which images are missing (person/document/
+  place, date, what it should show). The owner will supply commercially-free photos. Do not substitute an unrelated real
+  person's photo or a generated likeness.
+- Illustrations/recreations are only for things with no surviving image (e.g. events nobody photographed), and stay labelled.
+- Record source + licence for every image; credit on screen and in the description; flag unclear provenance before publishing.
+
 ## Project layout
 - One folder per documentary: `WAR_FILES_<SUBJECT>/` with deliverables at the top and `project/` (src, assets, research, build).
 - Do not modify previous documentary projects; copy shared code (`common.py`, `props.py`) into the new project.
