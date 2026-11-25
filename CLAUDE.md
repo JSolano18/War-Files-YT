@@ -27,6 +27,9 @@ thumbnail complement each other, 3 genuinely different thumbnail variants, homep
 - Illustrations/recreations are only for things with no surviving image (e.g. events nobody photographed), and stay labelled.
 - Record source + licence for every image; credit on screen and in the description; flag unclear provenance before publishing.
 
+## YouTube upload defaults
+- Category: Education · Education type: Other (documentary, not a lesson) · Level: None · Made for kids: No.
+
 ## Project layout
 - One folder per documentary: `WAR_FILES_<SUBJECT>/` with deliverables at the top and `project/` (src, assets, research, build).
 - Do not modify previous documentary projects; copy shared code (`common.py`, `props.py`) into the new project.
