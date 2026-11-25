@@ -17,6 +17,10 @@ thumbnail complement each other, 3 genuinely different thumbnail variants, homep
 - Letters, documents, people, places, objects and anything else that must be "the real one" are shown with REAL,
   commercially-usable images — never illustrations or AI stand-ins.
 - Search first with `WAR_FILES_PLAYBOOK/photo_search.py` (Openverse + Library of Congress).
+- IMAGE CHECK BEFORE PRODUCTION (owner's instruction): after the script/shot plan and BEFORE rendering the video,
+  search every real person/document/place the video shows, then send the owner ONE list of what is missing
+  (who/what, date, what it should show, timestamp/scene) and WAIT for the photos or the owner's go-ahead.
+  Never render with silhouettes/placeholders for real people without asking first.
 - If a needed real image is not found there, STOP and tell the owner exactly which images are missing (person/document/
   place, date, what it should show). The owner will supply commercially-free photos. Do not substitute an unrelated real
   person's photo or a generated likeness.

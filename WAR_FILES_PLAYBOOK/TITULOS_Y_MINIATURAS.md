@@ -126,3 +126,4 @@ Fuentes: transcripciones de *"How I Actually Make Viral Thumbnails"* (Isaac) y *
 - Cartas, documentos, personas, lugares y objetos que deban ser "los de verdad" se muestran con **imágenes reales de uso comercial**, en el video y en las miniaturas.
 - Buscar primero con `WAR_FILES_PLAYBOOK/photo_search.py` (Openverse + Library of Congress).
 - Si no aparecen ahí: **avisar al dueño con la lista exacta de imágenes que faltan**; él las proporciona (libres para uso comercial).
+- **Antes de hacer el video**: con el guion listo, buscar todas las imágenes reales y enviar al dueño **una sola lista** de las que faltan (persona/documento/lugar, fecha, qué debe mostrar, en qué escena). **Esperar** sus fotos o su aprobación antes de renderizar. Nunca renderizar con siluetas de personas reales sin preguntar.
