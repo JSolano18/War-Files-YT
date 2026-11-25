@@ -208,3 +208,82 @@ if __name__ == "__main__":
         os.makedirs(os.path.join(OUT, folder), exist_ok=True)
         for nm, fn in items:
             fn().convert("RGB").resize((1280, 720), Image.LANCZOS).save(os.path.join(OUT, folder, f"THUMBNAIL_{nm}.png")); print(folder, nm)
+
+
+# ═════════════ v2: with owner-supplied photos ═════════════
+A = os.path.join(HERE, "..", "assets")
+
+def faded_photo(path, height, tint, fade_left=0.35, fade_bottom=0.18, crop=None, contrast=1.2, fade_right=0.0):
+    im = Image.open(path).convert("L")
+    if crop: w, h = im.size; im = im.crop((int(crop[0] * w), int(crop[1] * h), int(crop[2] * w), int(crop[3] * h)))
+    im = ImageOps.autocontrast(im, cutoff=1); a = np.asarray(im, np.float32) / 255; a = np.clip((a - 0.5) * contrast + 0.5, 0, 1)
+    rgb = a[..., None] * np.array(tint, np.float32) + (1 - a[..., None]) * np.array([6, 7, 9])
+    s = height / im.size[1]; lay = Image.fromarray(rgb.clip(0, 255).astype(np.uint8)).resize((int(im.size[0] * s), int(height)), Image.LANCZOS).convert("RGBA")
+    lw, lh = lay.size; xx = np.linspace(0, 1, lw)[None, :]; yy = np.linspace(0, 1, lh)[:, None]
+    m = np.clip(xx / max(1e-3, fade_left), 0, 1) ** 1.3 * (np.clip((1 - yy) / max(1e-3, fade_bottom), 0, 1) ** 0.8 if fade_bottom else 1)
+    if fade_right: m = m * np.clip((1 - xx) / fade_right, 0, 1) ** 1.3
+    arr = np.asarray(lay).copy(); arr[..., 3] = (m * 255).astype(np.uint8); return Image.fromarray(arr, "RGBA")
+
+
+def antwerp_1b():   # big number + the surveillance-style still (owner-supplied) on the right two thirds
+    cv = dark_bg(3, (14, 20, 26), 0.7, 0.5)
+    ph = faded_photo(os.path.join(A, "antwerp_cctv_style_still.jpg"), TH * 1.0, (190, 235, 225), fade_left=0.30, fade_bottom=0, contrast=1.1)
+    paste(cv, ph, TW + 20, 0, "rt")
+    diamonds_pile(cv, X3 + 80, TH * 0.90, 18, 300, 4)
+    cv = burn(cv, TW * 0.28, TH * 0.42, TW * 0.30, TH * 0.36, 0.7); cv = grade(cv)
+    paste(cv, word("ANTWERP  ·  2003", 90, GOLD, track=12), X3, Y3 * 0.38, "cm")
+    paste(cv, word("$100,000,000", 260, GOLD, glow_col=(255, 210, 120)), X3 + 20, Y3 * 1.05, "cm")
+    paste(cv, word("GONE", 330, CYAN, glow_col=CYAN), X3 - 140, Y3 * 1.95, "cm")
+    return cv
+
+
+def antwerp_2b():   # evidence bag over the still
+    cv = dark_bg(7, (20, 18, 16), 0.33, 0.5)
+    ph = faded_photo(os.path.join(A, "antwerp_cctv_style_still.jpg"), TH, (120, 150, 145), fade_left=0.10, fade_bottom=0, contrast=1.0, fade_right=0.35)
+    paste(cv, ph, -80, 0, "lt", 0.55)
+    bag = sandwich_bag(1150).rotate(-6, expand=True, resample=Image.BICUBIC); paste(cv, bag, X3 + 40, TH * 0.54, "cm")
+    cv = burn(cv, TW * 0.78, TH * 0.42, TW * 0.24, TH * 0.4, 0.7); cv = grade(cv)
+    paste(cv, word("THE", 220, WHT), TW * 0.78, Y3 * 0.62, "cm")
+    paste(cv, word("$100M", 300, GOLD, glow_col=(255, 210, 120)), TW * 0.78, Y3 * 1.32, "cm")
+    paste(cv, word("MISTAKE", 250, CYAN, glow_col=CYAN), TW * 0.75, Y3 * 2.05, "cm")
+    return cv
+
+
+def cohen_1b():   # famous face (real portrait) on the right third + the radio + statement
+    cv = damascus_night(5)
+    arr = np.asarray(cv, np.float32).copy(); arr *= 0.55; cv = Image.fromarray(arr.astype(np.uint8), "RGBA")
+    face = faded_photo(os.path.join(A, "eli_cohen_portrait.jpg"), TH * 1.12, (226, 236, 226), fade_left=0.28, fade_bottom=0.15, crop=(0.0, 0.03, 1.0, 1.0), contrast=1.25)
+    paste(cv, face, TW + 30, -40, "rt")
+    gl = Image.new("RGBA", (TW, TH), (0, 0, 0, 0)); ImageDraw.Draw(gl).ellipse([TW * 0.55, TH * 0.1, TW * 1.05, TH * 1.1], fill=GREEN + (40,)); cv.alpha_composite(gl.filter(ImageFilter.GaussianBlur(160)))
+    r = radio_set(820); paste(cv, r, X3 - 20, TH * 0.80, "cm")
+    cv = burn(cv, TW * 0.28, TH * 0.36, TW * 0.30, TH * 0.32, 0.65); cv = grade(cv)
+    paste(cv, word("DAMASCUS  ·  1965", 84, GOLD, track=12), X3, Y3 * 0.36, "cm")
+    paste(cv, word("HIS RADIO", 220, WHT), X3, Y3 * 0.98, "cm")
+    paste(cv, word("BETRAYED HIM", 190, GREEN, glow_col=GREEN), X3, Y3 * 1.62, "cm")
+    return cv
+
+
+def passport_photo(w):
+    im = passport(w); h = im.size[1]
+    ph = Image.open(os.path.join(A, "eli_cohen_portrait.jpg")).convert("L"); ph = ImageOps.autocontrast(ph, cutoff=1)
+    pw, phh = int(w * 0.28), int(h * 0.56); ph = ImageOps.fit(ph, (pw, phh), Image.LANCZOS, centering=(0.5, 0.35)).convert("RGBA")
+    im.alpha_composite(ph, (40, int(h * 0.24))); ImageDraw.Draw(im).rectangle([40, int(h * 0.24), 40 + pw, int(h * 0.24) + phh], outline=(60, 50, 40), width=4)
+    st = word("ALIAS", int(w * 0.13), (200, 38, 30), track=12).rotate(-14, expand=True, resample=Image.BICUBIC)
+    im.alpha_composite(st, (int(w * 0.62), int(h * 0.66))); return im
+
+
+def cohen_2b():
+    cv = dark_bg(12, (24, 20, 16), 0.35, 0.5)
+    p = passport_photo(1400).rotate(5, expand=True, resample=Image.BICUBIC); paste(cv, p, X3 + 30, TH * 0.52, "cm")
+    cv = burn(cv, TW * 0.80, TH * 0.42, TW * 0.22, TH * 0.4, 0.6); cv = grade(cv)
+    paste(cv, word("ISRAEL'S", 200, WHT), TW * 0.81, Y3 * 0.75, "cm")
+    paste(cv, word("MAN IN", 200, WHT), TW * 0.81, Y3 * 1.35, "cm")
+    paste(cv, word("DAMASCUS", 210, GREEN, glow_col=GREEN), TW * 0.79, Y3 * 1.98, "cm")
+    return cv
+
+
+def run_v2():
+    for folder, items in (("ANTWERP", [("A1b_100M_GONE_PHOTO", antwerp_1b), ("A2b_100M_MISTAKE_PHOTO", antwerp_2b)]),
+                          ("ELI_COHEN", [("E1b_RADIO_BETRAYED_HIM_PHOTO", cohen_1b), ("E2b_MAN_IN_DAMASCUS_PHOTO", cohen_2b)])):
+        for nm, fn in items:
+            fn().convert("RGB").resize((1280, 720), Image.LANCZOS).save(os.path.join(OUT, folder, f"THUMBNAIL_{nm}.png")); print(nm)

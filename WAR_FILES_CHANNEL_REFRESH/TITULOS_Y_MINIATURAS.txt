@@ -4,7 +4,11 @@ WAR FILES — RENOVACIÓN DE TÍTULOS Y MINIATURAS (según WAR_FILES_PLAYBOOK/TI
 Título actual: "How Thieves Emptied the World's MOST Secure Di..." → se corta en móvil y lo importante queda al final.
 
 TÍTULO NUEVO (54 car.):  They Beat 10 Layers of Security. Then Left a Sandwich.
-MINIATURA:               ANTWERP/THUMBNAIL_A1_100M_GONE.png  ("$100,000,000 GONE" + bóveda abierta)
+MINIATURA:               ANTWERP/THUMBNAIL_A1b_100M_GONE_PHOTO.png  ("$100,000,000 GONE" + imagen estilo cámara de seguridad)
+  (versión sin foto: ANTWERP/THUMBNAIL_A1_100M_GONE.png)
+  ⚠ La imagen estilo cámara de seguridad la aportó el dueño del canal. NO es grabación real del robo: parece un fotograma
+    de la recreación del documental de Netflix "Stolen: Heist of the Century" (2025) → derechos de Netflix. Confirmar
+    origen/licencia antes de publicar; si no, usar la versión sin foto. No se le añadió ningún texto que la presente como real.
   → El título da el giro (el sándwich); la miniatura da lo que está en juego ($100M). No se repiten.
 
 Alternativas (para "Probar y comparar"; cada miniatura con su título ideal):
@@ -21,7 +25,9 @@ Título actual: "The Spy Who Almost Became Syria's Minister..." → se corta, y 
 (viceministro de Defensa) es una afirmación muy repetida pero DISPUTADA por los historiadores.
 
 TÍTULO NUEVO (39 car.):  The Spy Who Fooled Syria for Four Years
-MINIATURA:               ELI_COHEN/THUMBNAIL_E1_RADIO_BETRAYED_HIM.png ("HIS RADIO BETRAYED HIM")
+MINIATURA:               ELI_COHEN/THUMBNAIL_E1b_RADIO_BETRAYED_HIM_PHOTO.png ("HIS RADIO BETRAYED HIM" + retrato real)
+  (también: E2b_MAN_IN_DAMASCUS_PHOTO = su foto real en el documento de su alias)
+  Retrato de Eli Cohen aportado por el dueño del canal; circula como dominio público (gobierno de Israel, >50 años) — confirmar.
   → El título plantea cómo engañó a Siria 4 años (1961–65); la miniatura abre la otra pregunta: ¿cómo lo descubrieron?
 
 Alternativas:
