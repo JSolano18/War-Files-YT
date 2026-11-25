@@ -8,6 +8,18 @@ ARCHIVAL PHOTOGRAPHS USED IN THE FILM (each credited on screen, top-right)
     Source: https://commons.wikimedia.org/wiki/File:Major_Martin.jpg
     Used at: 00:21, 01:11, 08:25, 08:47, 09:50, 09:56, 10:07
 
+- hill-FDR-Shangri-La-1943.jpg
+    Author/holder: FDR Presidential Library & Museum
+    License: CC BY 2.0
+    Source: https://commons.wikimedia.org/wiki/File:Churchill-FDR-Shangri-La-1943.jpg
+    Used at: 02:48, 12:21, 12:28
+
+- class='fn'> <div class='language de' style='display:inline;font-weight:bold;'><b>Wilhelm Canaris</b></div> <abbr class='BArchtooltips' title='Short title assigned by the archive'><span typeof='mw:File'><span><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Info_non-talk.svg/20px-Info_non-talk.svg.png' decoding='async' width='15' height='15' class='mw-file-element' srcset='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Info_non-talk.svg/40px-Info_non-talk.svg.png 1.5x' data-file-width='62' data-file-height='62'></span></span></abbr></div>
+    Author/holder: Bundesarchiv
+    License: CC BY-SA 3.0 DE
+    Source: https://commons.wikimedia.org/w/index.php?curid=5419101
+    Used at: 05:23, 14:52
+
 - Charles Cholmondeley and Ewen Montagu.jpg
     Author/holder: St. John "Jock" Horsfall
     License: Public domain
@@ -32,12 +44,28 @@ ARCHIVAL PHOTOGRAPHS USED IN THE FILM (each credited on screen, top-right)
     Source: https://commons.wikimedia.org/wiki/File:The_Royal_Navy_during_the_Second_World_War_HMS_Seraph_returns_to_Portsmouth_IWM_A_21106.jpg
     Used at: 13:18, 13:23
 
+-  Hitler Karl Dönitz 1943. Grand Admiral Karl Doenitz (right) receives the Oak Leaves of the Knight's Cross of the Iron Cross from Third Reich leader Adolf Hitler
+    Author/holder: Narodowe Archiwum Cyfrowe (Poland)
+    License: CC0 1.0
+    Source: https://commons.wikimedia.org/w/index.php?curid=163586225
+    Used at: 16:20
+
+- class='fn'> <b><span class='language de'>Erwin Rommel</span></b> <abbr class='BArchtooltips' title='Short title assigned by the archive'><span typeof='mw:File'><span><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Info_non-talk.svg/15px-Info_non-talk.svg.png' decoding='async' width='15' height='15' class='mw-file-element' srcset='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Info_non-talk.svg/23px-Info_non-talk.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Info_non-talk.svg/30px-Info_non-talk.svg.png 2x' data-file-width='62' data-file-height='62'></span></span></abbr></div>
+    Author/holder: Bundesarchiv
+    License: CC BY-SA 3.0 DE
+    Source: https://commons.wikimedia.org/w/index.php?curid=5418950
+    Used at: 17:24
+
 ARCHIVAL CREDIT LINES (paste into the YouTube description)
   Photo: Ewen Montagu Team / Wikimedia Commons / Public domain
+  Photo: FDR Presidential Library & Museum / CC BY 2.0
+  Bundesarchiv, Bild 146-1979-013-43 / CC BY-SA 3.0 DE
   Photo: St. John "Jock" Horsfall / Wikimedia Commons / Public domain
   Photo: The National Archives / Wikimedia Commons / Public domain
   Photo: the Reed family collection / Wikimedia Commons / CC BY-SA 3.0
   Photo: Pelman, L (Lt), Royal Navy official photographer / Wikimedia Commons / Public domain
+  Photo: Narodowe Archiwum Cyfrowe / CC0
+  Bundesarchiv, Bild 146-1973-012-43 / CC BY-SA 3.0 DE
 
 LICENSE NOTES
 - 'Public domain' items are UK Crown-copyright (expired) or National Archives images as tagged on Wikimedia Commons.
@@ -55,10 +83,7 @@ IMAGES RESEARCHED BUT NOT YET DOWNLOADED (Wikimedia rate-limited this session; i
   - husky2: British troops wade ashore during the invasion of Sicily, 10 July 1943. NA4275.jpg
   - husky3: Landing beach on the opening day of the invasion of Sicily.jpg
   - casablanca: Winston Churchill and President Roosevelt at the Casablanca Conference, January 1943. A14057.jpg
-  - churchill: President Roosevelt and Prime Minister Churchill at the Allied Conference in Casablanca, January 1943 A14152.jpg
   - hitler: Adolf Hitler Karl Dönitz 1943. Grand Admiral Karl Doenitz (right) receives the Oak Leaves of the Knight's Cross of the Iron Cross from Third Reich leader Adolf Hitler.jpg
-  - doenitz: Bundesarchiv Bild 146-1976-127-06A, Karl Dönitz (cropped).jpg
-  - canaris: Bundesarchiv Bild 146-1979-013-43, Wilhelm Canaris.jpg
   - huelva: Muelle de Riotinto-Huelva (2005).jpg
   - bletchley: Bletchley Park Mansion.jpg
   - nye: Major General a E Nye H15636.jpg
