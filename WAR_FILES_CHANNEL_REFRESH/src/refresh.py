@@ -225,15 +225,20 @@ def faded_photo(path, height, tint, fade_left=0.35, fade_bottom=0.18, crop=None,
     arr = np.asarray(lay).copy(); arr[..., 3] = (m * 255).astype(np.uint8); return Image.fromarray(arr, "RGBA")
 
 
-def antwerp_1b():   # big number + the surveillance-style still (owner-supplied) on the right two thirds
+def antwerp_1b():   # big number + surveillance-style still — clean left-aligned text block
     cv = dark_bg(3, (14, 20, 26), 0.7, 0.5)
     ph = faded_photo(os.path.join(A, "antwerp_cctv_style_still.jpg"), TH * 1.0, (190, 235, 225), fade_left=0.30, fade_bottom=0, contrast=1.1)
     paste(cv, ph, TW + 20, 0, "rt")
-    diamonds_pile(cv, X3 + 80, TH * 0.90, 18, 300, 4)
-    cv = burn(cv, TW * 0.28, TH * 0.42, TW * 0.30, TH * 0.36, 0.7); cv = grade(cv)
-    paste(cv, word("ANTWERP  ·  2003", 90, GOLD, track=12), X3, Y3 * 0.38, "cm")
-    paste(cv, word("$100 MILLION", 300, GOLD, glow_col=(255, 210, 120)), X3 + 40, Y3 * 1.08, "cm")
-    paste(cv, word("GONE", 330, CYAN, glow_col=CYAN), X3 - 140, Y3 * 1.95, "cm")
+    # clean dark panel on the left: horizontal gradient
+    arr = np.asarray(cv, np.float32).copy(); xx = np.linspace(0, 1, TW)[None, :]
+    k = np.clip(1 - (xx - 0.22) / 0.33, 0, 1) ** 1.5; arr[..., :3] *= (1 - 0.88 * k)[..., None]
+    cv = Image.fromarray(arr.clip(0, 255).astype(np.uint8), "RGBA"); cv = grade(cv)
+    x0 = TW * 0.075; pad = 80                       # word() images carry an 80 px margin
+    y_head, y_num, y_gone = TH * 0.24, TH * 0.44, TH * 0.66
+    paste(cv, word("ANTWERP  ·  2003", 96, GOLD, track=14), x0 - pad, y_head, "lm")
+    ImageDraw.Draw(cv).rectangle([x0, y_head + 70, x0 + 520, y_head + 76], fill=GOLD + (255,))
+    paste(cv, word("$100 MILLION", 280, GOLD, glow_col=(255, 210, 120)), x0 - pad, y_num, "lm")
+    paste(cv, word("GONE", 330, CYAN, glow_col=CYAN), x0 - pad, y_gone, "lm")
     return cv
 
 
