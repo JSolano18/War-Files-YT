@@ -232,7 +232,7 @@ def antwerp_1b():   # big number + the surveillance-style still (owner-supplied)
     diamonds_pile(cv, X3 + 80, TH * 0.90, 18, 300, 4)
     cv = burn(cv, TW * 0.28, TH * 0.42, TW * 0.30, TH * 0.36, 0.7); cv = grade(cv)
     paste(cv, word("ANTWERP  ·  2003", 90, GOLD, track=12), X3, Y3 * 0.38, "cm")
-    paste(cv, word("$100,000,000", 260, GOLD, glow_col=(255, 210, 120)), X3 + 20, Y3 * 1.05, "cm")
+    paste(cv, word("$100 MILLION", 300, GOLD, glow_col=(255, 210, 120)), X3 + 40, Y3 * 1.08, "cm")
     paste(cv, word("GONE", 330, CYAN, glow_col=CYAN), X3 - 140, Y3 * 1.95, "cm")
     return cv
 
