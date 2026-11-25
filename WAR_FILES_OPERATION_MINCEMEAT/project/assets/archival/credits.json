@@ -52,5 +52,83 @@
   "artist": "Pelman, L (Lt), Royal Navy official photographer",
   "desc": "The Royal Navy during the Second World War HMS SERAPH arriving home at Portsmouth after 13 busy months. On the bridge, left to right: Lieutenant F G Harris, RNVR, of Sale, Cheshire; Lieutenant N L A Jewell, of Pinner, Middlesex, the Commanding Officer Warrant Engineer M M Stevenson, DSC,",
   "credit": "Photo: Pelman, L (Lt), Royal Navy official photographer / Wikimedia Commons / Public domain"
+ },
+ "canaris_photo": {
+  "file": "canaris_photo.jpg",
+  "title": "<div class='fn'> <div class='language de' style='display:inline;font-weight:bold;'><b>Wilhelm Canaris</b></div> <abbr class='BArchtooltips' title='Short title assigned by the archive'><span typeof='mw:File'><span><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Info_non-talk.svg/20px-Info_non-talk.svg.png' decoding='async' width='15' height='15' class='mw-file-element' srcset='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Info_non-talk.svg/40px-Info_non-talk.svg.png 1.5x' data-file-width='62' data-file-height='62'></span></span></abbr></div>",
+  "source": "https://commons.wikimedia.org/w/index.php?curid=5419101",
+  "license": "CC BY-SA 3.0 DE",
+  "artist": "Bundesarchiv",
+  "credit": "Bundesarchiv, Bild 146-1979-013-43 / CC BY-SA 3.0 DE"
+ },
+ "rommel_photo": {
+  "file": "rommel_photo.jpg",
+  "title": "<div class='fn'> <b><span class='language de'>Erwin Rommel</span></b> <abbr class='BArchtooltips' title='Short title assigned by the archive'><span typeof='mw:File'><span><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Info_non-talk.svg/15px-Info_non-talk.svg.png' decoding='async' width='15' height='15' class='mw-file-element' srcset='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Info_non-talk.svg/23px-Info_non-talk.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Info_non-talk.svg/30px-Info_non-talk.svg.png 2x' data-file-width='62' data-file-height='62'></span></span></abbr></div>",
+  "source": "https://commons.wikimedia.org/w/index.php?curid=5418950",
+  "license": "CC BY-SA 3.0 DE",
+  "artist": "Bundesarchiv",
+  "credit": "Bundesarchiv, Bild 146-1973-012-43 / CC BY-SA 3.0 DE"
+ },
+ "doenitz_hitler_photo": {
+  "file": "doenitz_hitler_photo.jpg",
+  "title": "Adolf Hitler Karl D\u00f6nitz 1943. Grand Admiral Karl Doenitz (right) receives the Oak Leaves of the Knight's Cross of the Iron Cross from Third Reich leader Adolf Hitler",
+  "source": "https://commons.wikimedia.org/w/index.php?curid=163586225",
+  "license": "CC0 1.0",
+  "artist": "Narodowe Archiwum Cyfrowe (Poland)",
+  "credit": "Photo: Narodowe Archiwum Cyfrowe / CC0"
+ },
+ "churchill_fdr_photo": {
+  "file": "churchill_fdr_photo.jpg",
+  "title": "Churchill-FDR-Shangri-La-1943.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Churchill-FDR-Shangri-La-1943.jpg",
+  "license": "CC BY 2.0",
+  "artist": "FDR Presidential Library & Museum",
+  "credit": "Photo: FDR Presidential Library & Museum / CC BY 2.0"
+ },
+ "churchill": {
+  "file": "churchill_fdr_photo.jpg",
+  "title": "Churchill-FDR-Shangri-La-1943.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Churchill-FDR-Shangri-La-1943.jpg",
+  "license": "CC BY 2.0",
+  "artist": "FDR Presidential Library & Museum",
+  "credit": "Photo: FDR Presidential Library & Museum / CC BY 2.0",
+  "crop": [
+   0.06,
+   0.04,
+   0.55,
+   0.5
+  ],
+  "caption": "Churchill at Shangri-La, 1943"
+ },
+ "doenitz": {
+  "file": "doenitz_hitler_photo.jpg",
+  "title": "Adolf Hitler Karl D\u00f6nitz 1943. Grand Admiral Karl Doenitz (right) receives the Oak Leaves of the Knight's Cross of the Iron Cross from Third Reich leader Adolf Hitler",
+  "source": "https://commons.wikimedia.org/w/index.php?curid=163586225",
+  "license": "CC0 1.0",
+  "artist": "Narodowe Archiwum Cyfrowe (Poland)",
+  "credit": "Photo: Narodowe Archiwum Cyfrowe / CC0",
+  "crop": [
+   0.5,
+   0.0,
+   1.0,
+   0.62
+  ],
+  "caption": "Karl D\u00f6nitz, 1943"
+ },
+ "canaris": {
+  "file": "canaris_photo.jpg",
+  "title": "<div class='fn'> <div class='language de' style='display:inline;font-weight:bold;'><b>Wilhelm Canaris</b></div> <abbr class='BArchtooltips' title='Short title assigned by the archive'><span typeof='mw:File'><span><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Info_non-talk.svg/20px-Info_non-talk.svg.png' decoding='async' width='15' height='15' class='mw-file-element' srcset='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Info_non-talk.svg/40px-Info_non-talk.svg.png 1.5x' data-file-width='62' data-file-height='62'></span></span></abbr></div>",
+  "source": "https://commons.wikimedia.org/w/index.php?curid=5419101",
+  "license": "CC BY-SA 3.0 DE",
+  "artist": "Bundesarchiv",
+  "credit": "Bundesarchiv, Bild 146-1979-013-43 / CC BY-SA 3.0 DE"
+ },
+ "rommel": {
+  "file": "rommel_photo.jpg",
+  "title": "<div class='fn'> <b><span class='language de'>Erwin Rommel</span></b> <abbr class='BArchtooltips' title='Short title assigned by the archive'><span typeof='mw:File'><span><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Info_non-talk.svg/15px-Info_non-talk.svg.png' decoding='async' width='15' height='15' class='mw-file-element' srcset='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Info_non-talk.svg/23px-Info_non-talk.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Info_non-talk.svg/30px-Info_non-talk.svg.png 2x' data-file-width='62' data-file-height='62'></span></span></abbr></div>",
+  "source": "https://commons.wikimedia.org/w/index.php?curid=5418950",
+  "license": "CC BY-SA 3.0 DE",
+  "artist": "Bundesarchiv",
+  "credit": "Bundesarchiv, Bild 146-1973-012-43 / CC BY-SA 3.0 DE"
  }
 }

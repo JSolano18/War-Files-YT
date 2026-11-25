@@ -942,11 +942,14 @@
 "end": 168.95870833333336
 },
 {
-"kind": "silhouette",
+"kind": "photo",
 "p": {
-"label": "WINSTON CHURCHILL",
-"sub": "Prime Minister",
-"tag": "ILLUSTRATION"
+"key": "churchill",
+"mode": "framed",
+"z": [
+1.0,
+1.1
+]
 },
 "start": 168.95870833333336,
 "end": 176.3469166666667
@@ -1166,11 +1169,14 @@
 "end": 323.4659583333334
 },
 {
-"kind": "silhouette",
+"kind": "photo",
 "p": {
-"label": "ADM. WILHELM CANARIS",
-"sub": "Head of the Abwehr",
-"tag": "ILLUSTRATION"
+"key": "canaris",
+"mode": "framed",
+"z": [
+1.0,
+1.1
+]
 },
 "start": 323.4659583333334,
 "end": 328.8747083333334
@@ -1913,21 +1919,27 @@
 "end": 741.7335
 },
 {
-"kind": "silhouette",
+"kind": "photo",
 "p": {
-"label": "WINSTON CHURCHILL",
-"sub": "Prime Minister",
-"tag": "ILLUSTRATION"
+"key": "churchill",
+"mode": "framed",
+"z": [
+1.1,
+1.0
+]
 },
 "start": 741.7335,
 "end": 748.7635
 },
 {
-"kind": "silhouette",
+"kind": "photo",
 "p": {
-"label": "WINSTON CHURCHILL",
-"sub": "Prime Minister",
-"tag": "ILLUSTRATION",
+"key": "churchill",
+"mode": "framed",
+"z": [
+1.1,
+1.0
+],
 "alt": 1
 },
 "start": 748.7635,
@@ -2182,11 +2194,16 @@
 "end": 892.9839999999999
 },
 {
-"kind": "silhouette",
+"kind": "photo",
 "p": {
-"label": "ADM. WILHELM CANARIS",
-"sub": "Head of the Abwehr",
-"tag": "ILLUSTRATION"
+"key": "canaris",
+"mode": "framed",
+"z": [
+1.0,
+1.12
+],
+"name": "ADM. WILHELM CANARIS",
+"sub": "Head of the Abwehr"
 },
 "start": 892.9839999999999,
 "end": 903.0039999999999
@@ -2307,11 +2324,16 @@
 "end": 980.0523749999998
 },
 {
-"kind": "silhouette",
+"kind": "photo",
 "p": {
-"label": "GRAND ADM. KARL D\u00d6NITZ",
-"sub": "Record of meeting with Hitler, 14 May 1943",
-"tag": "ILLUSTRATION"
+"key": "doenitz",
+"mode": "framed",
+"z": [
+1.0,
+1.1
+],
+"name": "GRAND ADM. KARL D\u00d6NITZ",
+"sub": "Record of meeting with Hitler, 14 May 1943"
 },
 "start": 980.0523749999998,
 "end": 986.3723749999997
@@ -2413,11 +2435,16 @@
 "end": 1044.0797499999996
 },
 {
-"kind": "silhouette",
+"kind": "photo",
 "p": {
-"label": "FIELD MARSHAL ERWIN ROMMEL",
-"sub": "Sent to Greece, late July 1943",
-"tag": "ILLUSTRATION"
+"key": "rommel",
+"mode": "framed",
+"z": [
+1.0,
+1.1
+],
+"name": "FIELD MARSHAL ERWIN ROMMEL",
+"sub": "Sent to Greece, late July 1943"
 },
 "start": 1044.0797499999996,
 "end": 1053.4456249999996
