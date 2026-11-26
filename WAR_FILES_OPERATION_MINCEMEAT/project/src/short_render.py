@@ -304,7 +304,12 @@ CAP_Y = 1400
 def captions(frame, t):
     for c, a, b in CHUNKS:
         if not (a <= t < b): continue
-        f = font(F_BEBAS, 118); parts = []
+        size = 118
+        while True:
+            f = font(F_BEBAS, size)
+            if sum(f.getlength(w.strip(".,?:").upper()) for w, _, _ in c) + 28 * (len(c) - 1) < SW - 140 or size < 70: break
+            size -= 6
+        parts = []
         for w, wa, wb in c:
             clean = w.strip(".,?:").upper()
             col = RED if w.lower().strip(".,?:") in HIGHLIGHT or w.lower() in HIGHLIGHT else OFF
