@@ -5,3 +5,4 @@ WAR_FILES_ANTWERP_HEIST/project/build/
 __pycache__/
 WAR_FILES_OPERATION_MINCEMEAT/project/build/*.log
 WAR_FILES_OPERATION_MINCEMEAT/project/build/chunks/
+WAR_FILES_OPERATION_MINCEMEAT/project/build/short/
