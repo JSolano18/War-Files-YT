@@ -7,6 +7,12 @@ Built from scratch for the Short (own visual style; no footage from the long vid
 2. Hitler Fell for a Man Who Never Existed
 3. This Dead Man Fooled Hitler in 1943
 
+════════ COVER (THUMBNAIL) + TITLE PAIRS — never repeat the same words in both ════════
+★ SHORT_COVER_B_HITLER_FOOLED.jpg ("FOOLED · BY A DEAD MAN")  +  "The Grave of a Man Who Never Existed"
+  SHORT_COVER_A_NEVER_EXISTED.jpg ("HE NEVER EXISTED")         +  "This Dead Man Fooled Hitler in 1943"
+How to set it: YouTube app → upload the Short → tap the pencil/“Edit cover” on the preview → "Add" / upload
+the .jpg from your phone (if your app only offers frames, pick the frame at 0:08 — the circled grave).
+
 ════════ DESCRIPTION ════════
 In 1943, a body washed ashore in Spain carrying secret letters about the next Allied invasion. Hitler believed them. The officer never existed — but the man in his grave did.
 ▶ Full documentary: [PASTE THE LINK TO "THE DEAD MAN WHO FOOLED HITLER" HERE]
