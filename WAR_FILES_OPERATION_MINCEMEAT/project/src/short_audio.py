@@ -56,10 +56,10 @@ add(mus, hit.astype(np.float32), L10, 0.9)
 boom = (np.sin(2 * np.pi * 60 * hr[: SR]) * np.exp(-hr[: SR] * 7) + hp(rng.normal(0, 1, SR), 2000) * np.exp(-hr[: SR] * 30) * 0.35)
 whoosh = hp(lp(rng.normal(0, 1, int(0.5 * SR)), 3000), 300) * np.hanning(int(0.5 * SR)) * 0.25
 for s in SEGS:
-    if s["kind"] in ("photo", "secret", "word", "list", "end") and s["start"] > 0: add(mus, whoosh.astype(np.float32), s["start"] - 0.25)
+    if s["kind"] in ("photo", "letter", "word", "list", "end") and s["start"] > 0: add(mus, whoosh.astype(np.float32), s["start"] - 0.25)
     if s["kind"] == "photo": add(mus, boom.astype(np.float32), s["start"], 0.35)
     if s["args"].get("stamp"): add(mus, boom.astype(np.float32), s["start"] + (s["end"] - s["start"]) * 0.52, 0.7)
-    if s["kind"] == "secret": add(mus, boom.astype(np.float32), s["start"] + (s["end"] - s["start"]) * 0.45, 0.6)
+    if s["kind"] == "letter" and s["args"].get("part") == "top": add(mus, boom.astype(np.float32), s["start"] + (s["end"] - s["start"]) * 0.55, 0.6)
     if s["kind"] == "list":
         for w, a, b in V[s["id"]]["words"]:
             if w.lower().startswith(("fianc", "love", "theat")): add(mus, boom.astype(np.float32), s["t0"] + a + 0.35, 0.45)

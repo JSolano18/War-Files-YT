@@ -1,0 +1,35 @@
+WAR FILES — SHORT: THE MAN WHO NEVER EXISTED (Operation Mincemeat)
+File: SHORT_MINCEMEAT.mp4 — 1080x1920 (9:16), ~1:01, 30 fps, -14 LUFS
+Built from scratch for the Short (own visual style; no footage from the long video).
+
+════════ TITLE (pick one, ≤55 chars) ════════
+1. The Grave of a Man Who Never Existed          ← recommended (the hook is the grave itself)
+2. Hitler Fell for a Man Who Never Existed
+3. This Dead Man Fooled Hitler in 1943
+
+════════ DESCRIPTION ════════
+In 1943, a body washed ashore in Spain carrying secret letters about the next Allied invasion. Hitler believed them. The officer never existed — but the man in his grave did.
+▶ Full documentary: [PASTE THE LINK TO "THE DEAD MAN WHO FOOLED HITLER" HERE]
+#Shorts #WW2 #OperationMincemeat
+
+Images:
+- Photo: Rufito / Wikimedia Commons / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File%3AWiliam_Martin_burial.jpg
+- Photo: Puertomenesteo / Wikimedia Commons / CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File%3APunta_Umbr%C3%ADa%2C_vista_panor%C3%A1mica_de_la_playa.jpg
+- Photo: Heinrich Hoffmann / Wikimedia Commons / CC BY-SA 3.0 de — https://commons.wikimedia.org/wiki/File%3ABundesarchiv_Bild_183-H1216-0500-002%2C_Adolf_Hitler.jpg
+- Photo: Parnall, C H (Lt), Royal Navy official photographer / Wikimedia Commons / Public domain — https://commons.wikimedia.org/wiki/File%3ATroops_from_51st_Highland_Division_unloading_stores_from_tank_landing_craft_on_the_opening_day_of_the_Allied_invasion_of_Sicily%2C_10_July_1943._A17916.jpg
+- Photo: Library of Congress / no known restrictions — https://www.loc.gov/item/90714840/
+Letter: typed RECREATION of the opening of Lt-Gen. Archibald Nye's letter to Gen. Alexander, 23 April 1943 (text of the original; no image of the document is used).
+Narration: synthetic voice (Kokoro TTS). Music and sound design: original, by WAR FILES.
+
+════════ HOW TO LINK IT TO THE LONG VIDEO ════════
+1. In YouTube Studio → upload the Short → Details → "Related video" → choose "The Dead Man Who Fooled Hitler".
+   A tappable link to the documentary then appears on the Short (the end card's arrow points to it).
+   From the phone app: when uploading, look for "Related video" / "Add related video".
+2. Also paste the documentary link into the description (above).
+
+════════ SETTINGS ════════
+Category: Education · Education type: Other · Level: None · Made for kids: No
+Captions are burned in; SHORT_SUBTITLES.srt is optional.
+
+════════ PINNED COMMENT ════════
+The grave in Huelva still says "William Martin" — and, since 1998, the name of the real man too. Who he was, and how two British officers turned him into a spy: full documentary linked above 👆

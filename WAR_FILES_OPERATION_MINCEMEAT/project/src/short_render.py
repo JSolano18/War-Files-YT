@@ -13,7 +13,7 @@ BRAND = os.path.join(ROOT, "..", "..", "WAR_FILES_PLAYBOOK", "brand", "LOGO_WAR_
 GOLD = (201, 165, 76); OFF = (242, 239, 232); RED = (232, 52, 42); BLACK = (10, 11, 14); STEEL = (118, 128, 138)
 CRED = json.load(open(os.path.join(A, "credits.json")))
 V = json.load(open(os.path.join(B, "voice.json")))
-GAP = {"L10": 0.55, "L11": 0.45, "L13": 0.35}          # extra silence before these lines
+GAP = {"L5": 0.9, "L10": 0.55, "L11": 0.45, "L13": 0.35}          # extra silence before these lines
 HIGHLIGHT = {"panzer", "wrong", "grave", "never", "existed", "spain", "secret", "greece", "spies", "hitler's", "believed",
              "greece.", "sicily", "fiction", "real", "forgotten", "who", "linked"}
 
@@ -134,7 +134,7 @@ def header(frame, t):
 def label(frame, text):
     f = font(F_OSW_B, 24); t = text_img(text, f, fill=OFF, tracking=4)
     box = Image.new("RGBA", (t.width + 26, t.height + 8), (0, 0, 0, 170)); paste(box, t, 13, 2)
-    paste(frame, box, SW - 70, 215, "rt")
+    paste(frame, box, SW - 70, LET_Y + LET_H + 18, "rt")
 
 def date_card(frame, text, p):
     if p <= 0: return
@@ -178,24 +178,63 @@ def scene_photo(frame, s, lt, ld):
 def shake(frame, q):
     pass  # handled via global offset (see render_frame)
 
-def scene_secret(frame, s, lt, ld):
-    frame.alpha_composite(base_bg())
-    w, h = 760, 900; paper = Image.new("RGBA", (w, h), (226, 218, 198, 255)); d = ImageDraw.Draw(paper)
-    rng = random.Random(5)
-    f = font(F_TYPE, 38); paste(paper, text_img("MOST SECRET  ·  PERSONAL", f, fill=(40, 36, 30)), 60, 70)
-    d.line((60, 130, w - 60, 130), fill=(60, 55, 48), width=3)
-    lines = 11; shown = lt / max(ld * 0.75, 0.01) * lines
-    for i in range(lines):
-        y = 175 + i * 62; ww = rng.randint(380, w - 120)
-        if i < shown:
-            d.rectangle((60, y, 60 + ww * clamp(shown - i), y + 30), fill=(18, 18, 20))
-    card = rotated(shadowed(paper), 2.0 * (1 - ease_out(lt / 0.4)) - 1.0)
-    paste(frame, card, SW / 2, 790, "cm")
-    if lt > ld * 0.45:
-        q = (lt - ld * 0.45) / 0.18; stp = stamp("TOP SECRET", 140, seed=3, rot=-9)
+_letter = {}
+def letter_paper():
+    if "img" in _letter: return _letter["img"], _letter["marks"]
+    from short_letter import LETTER_HEAD, LETTER_BODY, MARK
+    from common import wrap_text
+    w = 900; f = font(F_TYPE, 31); fh = font(F_TYPE, 34); lh = 47; ink = (34, 31, 27)
+    lines = []                                   # (text, font, x, y)
+    y = 70
+    for i, ln in enumerate(LETTER_HEAD):
+        if ln: lines.append((ln, fh if i == 0 else f, "c" if i == 0 else "r", y))
+        y += lh
+    y += 20
+    for para in LETTER_BODY:
+        for j, ln in enumerate(wrap_text(para, f, w - 140 - (60 if para != LETTER_BODY[0] else 0))):
+            lines.append((ln, f, 70 + (60 if (j == 0 and para != LETTER_BODY[0]) else 0), y)); y += lh
+        y += 22
+    h = y + 60
+    paper = Image.new("RGBA", (w, h), (231, 224, 205, 255)); d = ImageDraw.Draw(paper)
+    rng = np.random.default_rng(4); n = (rng.normal(0, 1, (h // 6, w // 6)) * 6 + 128).clip(0, 255).astype(np.uint8)
+    n = np.asarray(Image.fromarray(n).resize((w, h), Image.BICUBIC)).astype(np.int16) - 128
+    arr = np.asarray(paper).astype(np.int16); arr[..., :3] += n[..., None]; paper = Image.fromarray(arr.clip(0, 255).astype(np.uint8))
+    d = ImageDraw.Draw(paper); marks = []
+    for txt, ff, x, yy in lines:
+        if x == "c": xx = (w - ff.getlength(txt)) / 2
+        elif x == "r": xx = w - 70 - ff.getlength(txt)
+        else: xx = x
+        d.text((xx, yy), txt, font=ff, fill=ink)
+        if ff is fh: d.line((xx, yy + 44, xx + ff.getlength(txt), yy + 44), fill=ink, width=2)
+        for m in MARK:
+            k = txt.find(m)
+            if k >= 0:
+                x0 = xx + ff.getlength(txt[:k]); marks.append((x0, yy + 40, x0 + ff.getlength(m)))
+    _letter["img"], _letter["marks"] = paper, marks
+    return paper, marks
+
+LET_W, LET_H, LET_Y = 900, 960, 320
+def scene_letter(frame, s, lt, ld):
+    a = s["args"]; frame.alpha_composite(base_bg())
+    paper, marks = letter_paper(); p = smooth(lt / max(ld, 0.01))
+    if a.get("part") == "top": y0 = 0 + 330 * p
+    else: y0 = (marks[0][1] - 330) + 120 * p
+    y0 = int(clamp(y0, 0, paper.height - LET_H))
+    win = paper.crop((0, y0, LET_W, y0 + LET_H)).copy()
+    if a.get("part") != "top":
+        d = ImageDraw.Draw(win)
+        for i, (x0, yy, x1) in enumerate(marks):
+            q = clamp((lt - 0.4 - 0.55 * i) / 0.35)
+            if q > 0: d.line((x0 - 4, yy - y0, x0 - 4 + (x1 - x0 + 8) * q, yy - y0), fill=RED + (255,), width=6)
+    card = shadowed(win)
+    slam = 1 - ease_out(lt / 0.3) if a.get("part") == "top" else 0
+    if slam > 0: card = card.resize((int(card.width * (1 + 0.1 * slam)), int(card.height * (1 + 0.1 * slam))), Image.BILINEAR)
+    paste(frame, card, SW / 2, LET_Y + LET_H / 2, "cm")
+    if a.get("part") == "top" and lt > ld * 0.55:
+        q = (lt - ld * 0.55) / 0.18; stp = stamp("TOP SECRET", 130, seed=3, rot=-9)
         k = 1 + 1.0 * (1 - ease_out(q)); stp = stp.resize((int(stp.width * k), int(stp.height * k)), Image.BILINEAR)
-        paste(frame, stp, SW / 2, 740, "cm", opacity=clamp(q * 1.5))
-    return lt < 0.05
+        paste(frame, stp, SW / 2 + 120, LET_Y + 700, "cm", opacity=clamp(q * 1.5))
+    return lt < 0.05 and a.get("part") == "top"
 
 def big_word(text, size, color=OFF):
     return text_img(text, font(F_BEBAS, size), fill=color, tracking=8)
@@ -283,7 +322,7 @@ def scene_end(frame, s, lt, ld):
         d.rectangle((cx - 20, cy - 70, cx + 20, cy), fill=RED + (int(255 * q),))
     return False
 
-KINDS = dict(photo=scene_photo, secret=scene_secret, word=scene_word, swap=scene_swap, list=scene_list, end=scene_end)
+KINDS = dict(photo=scene_photo, letter=scene_letter, word=scene_word, swap=scene_swap, list=scene_list, end=scene_end)
 
 # ---------------- captions ----------------
 def caption_chunks():
@@ -338,7 +377,7 @@ def render_frame(fi):
     frame = Image.new("RGBA", (SW, SH), BLACK + (255,))
     flash = KINDS[s["kind"]](frame, s, lt, ld)
     if s["kind"] not in ("end",): header(frame, t)
-    lab = {"secret": "ILLUSTRATION"}.get(s["kind"])
+    lab = {"letter": "RECREATION · TEXT OF THE NYE LETTER, 23 APRIL 1943"}.get(s["kind"])
     if lab: label(frame, lab)
     if s["kind"] != "swap": captions(frame, t)
     arr = np.asarray(frame.convert("RGB")).astype(np.float32)
