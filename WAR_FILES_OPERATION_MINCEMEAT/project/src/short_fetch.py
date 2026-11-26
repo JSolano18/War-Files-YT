@@ -2,7 +2,8 @@
 import json, os, re, sys, time, urllib.request, urllib.parse
 UA = {"User-Agent": "WarFilesResearch/1.0 (documentary research)"}
 OUT = os.path.join(os.path.dirname(__file__), "..", "assets", "short"); CF = os.path.join(OUT, "credits.json")
-strip = lambda s: re.sub(r"\s+", " ", re.sub("<[^>]+>", "", s or "")).strip()
+import html
+strip = lambda s: html.unescape(re.sub(r"\s+", " ", re.sub("<[^>]+>", "", s or ""))).strip()
 def get(url):
     for i in range(30):
         try:

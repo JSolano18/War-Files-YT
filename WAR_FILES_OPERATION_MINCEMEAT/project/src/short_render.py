@@ -144,7 +144,7 @@ def date_card(frame, text, p):
     paste(frame, box, 70, 330)
 
 # ---------------- scene kinds ----------------
-PRINT_W, PRINT_H, PRINT_Y = 940, 1000, 300
+PRINT_W, PRINT_H, PRINT_Y = 940, 880, 330
 
 def scene_photo(frame, s, lt, ld):
     a = s["args"]; key = a["img"]; bw = a.get("bw", False)
@@ -158,16 +158,20 @@ def scene_photo(frame, s, lt, ld):
     card = rotated(card, rot)
     if sc != 1: card = card.resize((int(card.width * sc), int(card.height * sc)), Image.BILINEAR)
     paste(frame, card, SW / 2, PRINT_Y + PRINT_H / 2 + 20, "cm")
+    if a.get("place"):
+        f = font(F_OSW_B, 30); tx = text_img(a["place"], f, fill=OFF, tracking=4)
+        bx = Image.new("RGBA", (tx.width + 30, tx.height + 12), (0, 0, 0, 190)); paste(bx, tx, 15, 4)
+        paste(frame, bx, SW / 2 - PRINT_W / 2 + 10, PRINT_Y + PRINT_H - 30, "lb", opacity=clamp((lt - 0.4) / 0.4))
     if a.get("date"): date_card(frame, a["date"], (lt - 0.2) / 1.2)
     if a.get("circle"):
-        marker_circle(frame, SW / 2, PRINT_Y + PRINT_H * 0.42, 330, 150, clamp((lt - 0.9) / 0.7))
+        rx, ry = a["circle"]; marker_circle(frame, SW / 2, PRINT_Y + PRINT_H / 2 + 20, rx, ry, clamp((lt - a.get("circle_t", 0.9)) / 0.7))
     if a.get("stamp"):
         st0 = ld * 0.52; q = (lt - st0) / 0.18
         if q > 0:
             stp = stamp(a["stamp"], 150, seed=len(a["stamp"]))
             k = 1 + 1.2 * (1 - ease_out(q))
             stp = stp.resize((int(stp.width * k), int(stp.height * k)), Image.BILINEAR)
-            paste(frame, stp, SW / 2, PRINT_Y + PRINT_H * 0.62, "cm", opacity=clamp(q * 1.5))
+            paste(frame, stp, SW / 2, PRINT_Y + PRINT_H * 0.78, "cm", opacity=clamp(q * 1.5))
             if q < 1.4: shake(frame, q)
     return lt < 0.07  # flash on slam
 
@@ -295,7 +299,7 @@ def caption_chunks():
         out.append((c, c[0][1], min(end, c[-1][2] + 0.6)))
     return out
 CHUNKS = caption_chunks()
-CAP_Y = 1360
+CAP_Y = 1400
 
 def captions(frame, t):
     for c, a, b in CHUNKS:
