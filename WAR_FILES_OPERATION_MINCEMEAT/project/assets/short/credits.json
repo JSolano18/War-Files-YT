@@ -6,5 +6,45 @@
   "license": "No known restrictions (Library of Congress)",
   "artist": "Library of Congress",
   "credit": "Photo: Library of Congress / no known restrictions"
+ },
+ "grave": {
+  "file": "grave.jpg",
+  "title": "File:Wiliam Martin burial.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File%3AWiliam_Martin_burial.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Rufito",
+  "date": "2013-08-15",
+  "desc": "William MArtin grave at the Huelva cemetery",
+  "credit": "Photo: Rufito / Wikimedia Commons / CC BY-SA 4.0"
+ },
+ "beach": {
+  "file": "beach.jpg",
+  "title": "File:Punta Umbr\u00eda, vista panor\u00e1mica de la playa.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File%3APunta_Umbr%C3%ADa%2C_vista_panor%C3%A1mica_de_la_playa.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Puertomenesteo",
+  "date": "04.09.2008",
+  "desc": "Vista panor\u00e1mica de la Playa de Punta Umbr\u00eda al amanecer.",
+  "credit": "Photo: Puertomenesteo / Wikimedia Commons / CC BY-SA 4.0"
+ },
+ "sicily_beach": {
+  "file": "sicily_beach.jpg",
+  "title": "File:The Invasion of Sicily 1943 NA4502.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File%3AThe_Invasion_of_Sicily_1943_NA4502.jpg",
+  "license": "Public domain",
+  "artist": "No 2 Army Film &amp; Photographic Unit, Rooke (Sgt)",
+  "date": "between 1939 and 1945date QS:P571,+1950-00-00T00:00:00Z/7,P1319,+1939-00-00T00:00:00Z/9,P1326,+1945-00-00T00:00:00Z/9",
+  "desc": "The Invasion of Sicily 1943 British troops in a landing craft assault (LCA), 9 July 1943.",
+  "credit": "Photo: No 2 Army Film &amp; Photographic Unit, Rooke (Sgt) / Wikimedia Commons / Public domain"
+ },
+ "sicily_lct": {
+  "file": "sicily_lct.jpg",
+  "title": "File:Troops from 51st Highland Division unloading stores from tank landing craft on the opening day of the Allied invasion of Sicily, 10 July 1943. A17916.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File%3ATroops_from_51st_Highland_Division_unloading_stores_from_tank_landing_craft_on_the_opening_day_of_the_Allied_invasion_of_Sicily%2C_10_July_1943._A17916.jpg",
+  "license": "Public domain",
+  "artist": "Parnall, C H (Lt), Royal Navy official photographer",
+  "date": "between 1939 and 1945date QS:P571,+1950-00-00T00:00:00Z/7,P1319,+1939-00-00T00:00:00Z/9,P1326,+1945-00-00T00:00:00Z/9",
+  "desc": "Troops from 51st Highland Division unloading stores from tank landing craft on the opening day of the Allied invasion of Sicily, 10 July 1943. Just after dawn, men of the Highland Division up to their waists in water unloading stores on a landing beach on the opening day of the invasion of Sicily. M",
+  "credit": "Photo: Parnall, C H (Lt), Royal Navy official photographer / Wikimedia Commons / Public domain"
  }
 }
