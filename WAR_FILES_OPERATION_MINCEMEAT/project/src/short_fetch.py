@@ -27,8 +27,9 @@ for key, t in W.items():
     lic = v["license"]
     if "NC" in lic or "ND" in lic or not any(x in lic for x in ("Public domain", "CC BY", "CC0", "PD")): print("SKIP licence", key, lic); continue
     url = v["thumb"] if v.get("w") and v["w"] > 1920 and v.get("thumb") else v["url"]
+    url = url.split("?")[0].replace("://thumb.wikimedia.org/", "://upload.wikimedia.org/")
     ext = os.path.splitext(urllib.parse.urlparse(url).path)[1].lower() or ".jpg"; fn = key + ext
-    if not os.path.exists(os.path.join(OUT, fn)): open(os.path.join(OUT, fn), "wb").write(get(url)); time.sleep(20)
+    if not os.path.exists(os.path.join(OUT, fn)): data = get(url); open(os.path.join(OUT, fn), "wb").write(data); time.sleep(20)
     credits[key] = dict(file=fn, title=t, source="https://commons.wikimedia.org/wiki/" + urllib.parse.quote(t.replace(" ", "_")), license=lic, artist=v["artist"], date=v["date"], desc=v["desc"],
                         credit=f"Photo: {v['artist'][:60] or 'Unknown'} / Wikimedia Commons / {lic}")
     json.dump(credits, open(CF, "w"), indent=1); print("ok", key, "|", lic, "|", v["artist"][:40], "|", v["desc"][:80], flush=True)
